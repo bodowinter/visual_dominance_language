@@ -1,0 +1,2086 @@
+quartz('', 9.5, 7.5)#
+par(mai = c(2.5, 1, 1, 1.5))#
+plot(1, 1,#
+	type = 'n', xaxt = 'n', yaxt = 'n', xlab = '', ylab = '', bty = 'n',#
+	xlim = c(0, 1), ylim = c(0, 5), yaxs = 'i')#
+polygon(x = c(xdens$x, rev(xdens$x)), c(xdens$y, rep(0, length(xdens$y))),#
+	col = 'lightgray', border = NA)#
+points(x = xdens$x, y = xdens$y, col = 'gray40', type = 'l', lwd = 4)
+quartz('', 9.5, 7.5)#
+par(mai = c(2.5, 1, 1, 1.5))#
+plot(1, 1,#
+	type = 'n', xaxt = 'n', yaxt = 'n', xlab = '', ylab = '', bty = 'n',#
+	xlim = c(0, 1), ylim = c(0, 5), yaxs = 'i')#
+polygon(x = c(xdens$x, rev(xdens$x)), c(xdens$y, rep(0, length(xdens$y))),#
+	col = 'lightgray', border = NA)#
+points(x = xdens$x, y = xdens$y, col = 'gray40', type = 'l', lwd = 4)
+quartz('', 9.5, 7.5)#
+par(mai = c(2.5, 1, 1, 1.5))#
+plot(1, 1,#
+	type = 'n', xaxt = 'n', yaxt = 'n', xlab = '', ylab = '', bty = 'n',#
+	xlim = c(0, 1), ylim = c(0, 5), yaxs = 'i')#
+polygon(x = c(xdens$x, rev(xdens$x)), c(xdens$y, rep(0, length(xdens$y))),#
+	col = 'lightgray', border = NA)#
+points(x = xdens$x, y = xdens$y, col = 'gray40', type = 'l', lwd = 4)#
+polygon(x = c(xdens2$x, rev(xdens2$x)), c(xdens2$y, rep(0, length(xdens2$y))),#
+	col = rgb(0.3, 0.6, 0.9, 0.6), border = NA)#
+points(x = xdens2$x, y = xdens2$y, col = 'steelblue', type = 'l', lwd = 4)#
+axis(side = 1, at = seq(0, 1, 0.25), font = 2, lwd = 3, lwd.ticks = 3,#
+	cex.axis = 1.5, labels = FALSE)#
+axis(side = 1, at = seq(0, 1, 0.25), font = 2, lwd = 3, lwd.ticks = 3,#
+	cex.axis = 2, tick = F, line = 0.8)#
+mtext('Cosine similarity', side = 1, line = 5.5, font = 2, cex = 3)#
+## Add text:#
+arrows(x0 = abrasive_contact_x, y0 = 0.8, y1 = 0.08, code = 2, lwd = 5)#
+text(x = abrasive_contact_x, y = 1.1, labels = '"abrasive contact"', font = 2, cex = 2.2, xpd = T)#
+arrows(x0 = sweet_music_x, y0 = 0.8, y1 = 0.08, code = 2, lwd = 5)#
+text(x = sweet_music_x, y = 1.1, labels = '"sweet music"', font = 2, cex = 2.2, xpd = T)
+quartz('', 9.5, 7.5)#
+par(mai = c(2.5, 1, 1, 1.5))#
+plot(1, 1,#
+	type = 'n', xaxt = 'n', yaxt = 'n', xlab = '', ylab = '', bty = 'n',#
+	xlim = c(0, 1), ylim = c(0, 5), yaxs = 'i')#
+polygon(x = c(xdens$x, rev(xdens$x)), c(xdens$y, rep(0, length(xdens$y))),#
+	col = 'lightgray', border = NA)#
+points(x = xdens$x, y = xdens$y, col = 'gray40', type = 'l', lwd = 4)#
+polygon(x = c(xdens2$x, rev(xdens2$x)), c(xdens2$y, rep(0, length(xdens2$y))),#
+	col = rgb(0, 0, 0, 0.6), border = NA)#
+points(x = xdens2$x, y = xdens2$y, col = 'gray20', type = 'l', lwd = 4)
+quartz('', 9.5, 7.5)#
+par(mai = c(2.5, 1, 1, 1.5))#
+plot(1, 1,#
+	type = 'n', xaxt = 'n', yaxt = 'n', xlab = '', ylab = '', bty = 'n',#
+	xlim = c(0, 1), ylim = c(0, 5), yaxs = 'i')#
+polygon(x = c(xdens$x, rev(xdens$x)), c(xdens$y, rep(0, length(xdens$y))),#
+	col = 'lightgray', border = NA)#
+points(x = xdens$x, y = xdens$y, col = 'gray40', type = 'l', lwd = 4)#
+polygon(x = c(xdens2$x, rev(xdens2$x)), c(xdens2$y, rep(0, length(xdens2$y))),#
+	col = rgb(0.7, 0, 0.7, 0.6), border = NA)#
+points(x = xdens2$x, y = xdens2$y, col = 'gray20', type = 'l', lwd = 4)
+quartz('', 9.5, 7.5)#
+par(mai = c(2.5, 1, 1, 1.5))#
+plot(1, 1,#
+	type = 'n', xaxt = 'n', yaxt = 'n', xlab = '', ylab = '', bty = 'n',#
+	xlim = c(0, 1), ylim = c(0, 5), yaxs = 'i')#
+polygon(x = c(xdens$x, rev(xdens$x)), c(xdens$y, rep(0, length(xdens$y))),#
+	col = 'lightgray', border = NA)#
+points(x = xdens$x, y = xdens$y, col = 'gray40', type = 'l', lwd = 4)#
+polygon(x = c(xdens2$x, rev(xdens2$x)), c(xdens2$y, rep(0, length(xdens2$y))),#
+	col = rgb(0.4, 0.1, 0.4, 0.6), border = NA)#
+points(x = xdens2$x, y = xdens2$y, col = 'gray20', type = 'l', lwd = 4)
+grep('purple', colors(), value = T)
+quartz('', 9.5, 7.5)#
+par(mai = c(2.5, 1, 1, 1.5))#
+plot(1, 1,#
+	type = 'n', xaxt = 'n', yaxt = 'n', xlab = '', ylab = '', bty = 'n',#
+	xlim = c(0, 1), ylim = c(0, 5), yaxs = 'i')#
+polygon(x = c(xdens$x, rev(xdens$x)), c(xdens$y, rep(0, length(xdens$y))),#
+	col = 'lightgray', border = NA)#
+points(x = xdens$x, y = xdens$y, col = 'gray40', type = 'l', lwd = 4)#
+polygon(x = c(xdens2$x, rev(xdens2$x)), c(xdens2$y, rep(0, length(xdens2$y))),#
+	col = rgb(0.4, 0.1, 0.4, 0.6), border = NA)#
+points(x = xdens2$x, y = xdens2$y, col = 'purple3', type = 'l', lwd = 4)
+quartz('', 9.5, 7.5)#
+par(mai = c(2.5, 1, 1, 1.5))#
+plot(1, 1,#
+	type = 'n', xaxt = 'n', yaxt = 'n', xlab = '', ylab = '', bty = 'n',#
+	xlim = c(0, 1), ylim = c(0, 5), yaxs = 'i')#
+polygon(x = c(xdens$x, rev(xdens$x)), c(xdens$y, rep(0, length(xdens$y))),#
+	col = 'lightgray', border = NA)#
+points(x = xdens$x, y = xdens$y, col = 'gray40', type = 'l', lwd = 4)#
+polygon(x = c(xdens2$x, rev(xdens2$x)), c(xdens2$y, rep(0, length(xdens2$y))),#
+	col = rgb(0.4, 0.1, 0.4, 0.6), border = NA)#
+points(x = xdens2$x, y = xdens2$y, col = 'purple1', type = 'l', lwd = 4)
+quartz('', 9.5, 7.5)#
+par(mai = c(2.5, 1, 1, 1.5))#
+plot(1, 1,#
+	type = 'n', xaxt = 'n', yaxt = 'n', xlab = '', ylab = '', bty = 'n',#
+	xlim = c(0, 1), ylim = c(0, 5), yaxs = 'i')#
+polygon(x = c(xdens$x, rev(xdens$x)), c(xdens$y, rep(0, length(xdens$y))),#
+	col = 'lightgray', border = NA)#
+points(x = xdens$x, y = xdens$y, col = 'gray40', type = 'l', lwd = 4)#
+polygon(x = c(xdens2$x, rev(xdens2$x)), c(xdens2$y, rep(0, length(xdens2$y))),#
+	col = rgb(0.4, 0.1, 0.4, 0.6), border = NA)#
+points(x = xdens2$x, y = xdens2$y, col = 'purple4', type = 'l', lwd = 4)
+quartz('', 9.5, 7.5)#
+par(mai = c(2.5, 1, 1, 1.5))#
+plot(1, 1,#
+	type = 'n', xaxt = 'n', yaxt = 'n', xlab = '', ylab = '', bty = 'n',#
+	xlim = c(0, 1), ylim = c(0, 5), yaxs = 'i')#
+polygon(x = c(xdens$x, rev(xdens$x)), c(xdens$y, rep(0, length(xdens$y))),#
+	col = 'lightgray', border = NA)#
+points(x = xdens$x, y = xdens$y, col = 'gray40', type = 'l', lwd = 4)
+axis(side = 1, at = seq(0, 1, 0.25), font = 2, lwd = 3, lwd.ticks = 3,#
+	cex.axis = 1.5, labels = FALSE)#
+axis(side = 1, at = seq(0, 1, 0.25), font = 2, lwd = 3, lwd.ticks = 3,#
+	cex.axis = 2, tick = F, line = 0.8)#
+mtext('Cosine similarity', side = 1, line = 5.5, font = 2, cex = 3)
+quartz('', 9.5, 7.5)#
+par(mai = c(2.5, 1, 1, 1.5))#
+plot(1, 1,#
+	type = 'n', xaxt = 'n', yaxt = 'n', xlab = '', ylab = '', bty = 'n',#
+	xlim = c(0, 1), ylim = c(0, 5), yaxs = 'i')#
+polygon(x = c(xdens$x, rev(xdens$x)), c(xdens$y, rep(0, length(xdens$y))),#
+	col = 'lightgray', border = NA)#
+points(x = xdens$x, y = xdens$y, col = 'gray40', type = 'l', lwd = 4)#
+polygon(x = c(xdens2$x, rev(xdens2$x)), c(xdens2$y, rep(0, length(xdens2$y))),#
+	col = rgb(0.4, 0.1, 0.4, 0.6), border = NA)#
+points(x = xdens2$x, y = xdens2$y, col = 'purple4', type = 'l', lwd = 4)#
+axis(side = 1, at = seq(0, 1, 0.25), font = 2, lwd = 3, lwd.ticks = 3,#
+	cex.axis = 1.5, labels = FALSE)#
+axis(side = 1, at = seq(0, 1, 0.25), font = 2, lwd = 3, lwd.ticks = 3,#
+	cex.axis = 2, tick = F, line = 0.8)#
+mtext('Cosine similarity', side = 1, line = 5.5, font = 2, cex = 3)
+quartz('', 9.5, 7.5)#
+par(mai = c(2.5, 1, 1, 1.5))#
+plot(1, 1,#
+	type = 'n', xaxt = 'n', yaxt = 'n', xlab = '', ylab = '', bty = 'n',#
+	xlim = c(0, 1), ylim = c(0, 5), yaxs = 'i')#
+polygon(x = c(xdens$x, rev(xdens$x)), c(xdens$y, rep(0, length(xdens$y))),#
+	col = 'lightgray', border = NA)#
+points(x = xdens$x, y = xdens$y, col = 'gray40', type = 'l', lwd = 4)#
+# polygon(x = c(xdens2$x, rev(xdens2$x)), c(xdens2$y, rep(0, length(xdens2$y))),#
+	# col = rgb(0.4, 0.1, 0.4, 0.6), border = NA)#
+# points(x = xdens2$x, y = xdens2$y, col = 'purple4', type = 'l', lwd = 4)#
+axis(side = 1, at = seq(0, 1, 0.25), font = 2, lwd = 3, lwd.ticks = 3,#
+	cex.axis = 1.5, labels = FALSE)#
+axis(side = 1, at = seq(0, 1, 0.25), font = 2, lwd = 3, lwd.ticks = 3,#
+	cex.axis = 2, tick = F, line = 0.8)#
+mtext('Cosine similarity', side = 1, line = 5.5, font = 2, cex = 3)#
+## Add text:#
+arrows(x0 = abrasive_contact_x, y0 = 0.8, y1 = 0.08, code = 2, lwd = 5)#
+text(x = abrasive_contact_x, y = 1.1, labels = '"abrasive contact"', font = 2, cex = 2.2, xpd = T)
+quartz('', 9.5, 7.5)#
+par(mai = c(2.5, 1, 1, 1.5))#
+plot(1, 1,#
+	type = 'n', xaxt = 'n', yaxt = 'n', xlab = '', ylab = '', bty = 'n',#
+	xlim = c(0, 1), ylim = c(0, 5), yaxs = 'i')#
+polygon(x = c(xdens$x, rev(xdens$x)), c(xdens$y, rep(0, length(xdens$y))),#
+	col = 'lightgray', border = NA)#
+points(x = xdens$x, y = xdens$y, col = 'gray40', type = 'l', lwd = 4)#
+# polygon(x = c(xdens2$x, rev(xdens2$x)), c(xdens2$y, rep(0, length(xdens2$y))),#
+	# col = rgb(0.4, 0.1, 0.4, 0.6), border = NA)#
+# points(x = xdens2$x, y = xdens2$y, col = 'purple4', type = 'l', lwd = 4)#
+axis(side = 1, at = seq(0, 1, 0.25), font = 2, lwd = 3, lwd.ticks = 3,#
+	cex.axis = 1.5, labels = FALSE)#
+axis(side = 1, at = seq(0, 1, 0.25), font = 2, lwd = 3, lwd.ticks = 3,#
+	cex.axis = 2, tick = F, line = 0.8)#
+mtext('Cosine similarity', side = 1, line = 5.5, font = 2, cex = 3)#
+## Add text:
+arrows(x0 = sweet_music_x, y0 = 0.8, y1 = 0.08, code = 2, lwd = 5)#
+text(x = sweet_music_x, y = 1.1, labels = '"sweet music"', font = 2, cex = 2.2, xpd = T)
+quartz('', 9.5, 7.5)#
+par(mai = c(2.5, 1, 1, 1.5))#
+plot(1, 1,#
+	type = 'n', xaxt = 'n', yaxt = 'n', xlab = '', ylab = '', bty = 'n',#
+	xlim = c(0, 1), ylim = c(0, 5), yaxs = 'i')#
+polygon(x = c(xdens$x, rev(xdens$x)), c(xdens$y, rep(0, length(xdens$y))),#
+	col = 'lightgray', border = NA)#
+points(x = xdens$x, y = xdens$y, col = 'gray40', type = 'l', lwd = 4)#
+# polygon(x = c(xdens2$x, rev(xdens2$x)), c(xdens2$y, rep(0, length(xdens2$y))),#
+	# col = rgb(0.4, 0.1, 0.4, 0.6), border = NA)#
+# points(x = xdens2$x, y = xdens2$y, col = 'purple4', type = 'l', lwd = 4)#
+axis(side = 1, at = seq(0, 1, 0.25), font = 2, lwd = 3, lwd.ticks = 3,#
+	cex.axis = 1.5, labels = FALSE)#
+axis(side = 1, at = seq(0, 1, 0.25), font = 2, lwd = 3, lwd.ticks = 3,#
+	cex.axis = 2, tick = F, line = 0.8)#
+mtext('Cosine similarity', side = 1, line = 5.5, font = 2, cex = 3)#
+## Add text:#
+arrows(x0 = abrasive_contact_x, y0 = 0.8, y1 = 0.08, code = 2, lwd = 5)#
+text(x = abrasive_contact_x, y = 1.1, labels = '"abrasive contact"', font = 2, cex = 2.2, xpd = T)#
+arrows(x0 = sweet_music_x, y0 = 0.8, y1 = 0.08, code = 2, lwd = 5)#
+text(x = sweet_music_x, y = 1.1, labels = '"sweet music"', font = 2, cex = 2.2, xpd = T)
+quartz('', 9.5, 7.5)#
+par(mai = c(2.5, 1, 1, 1.5))#
+plot(1, 1,#
+	type = 'n', xaxt = 'n', yaxt = 'n', xlab = '', ylab = '', bty = 'n',#
+	xlim = c(0, 1), ylim = c(0, 5), yaxs = 'i')#
+polygon(x = c(xdens$x, rev(xdens$x)), c(xdens$y, rep(0, length(xdens$y))),#
+	col = 'lightgray', border = NA)#
+points(x = xdens$x, y = xdens$y, col = 'gray40', type = 'l', lwd = 4)#
+# polygon(x = c(xdens2$x, rev(xdens2$x)), c(xdens2$y, rep(0, length(xdens2$y))),#
+	# col = rgb(0.4, 0.1, 0.4, 0.6), border = NA)#
+# points(x = xdens2$x, y = xdens2$y, col = 'purple4', type = 'l', lwd = 4)#
+axis(side = 1, at = seq(0, 1, 0.25), font = 2, lwd = 3, lwd.ticks = 3,#
+	cex.axis = 1.5, labels = FALSE)#
+axis(side = 1, at = seq(0, 1, 0.25), font = 2, lwd = 3, lwd.ticks = 3,#
+	cex.axis = 2, tick = F, line = 0.8)#
+mtext('Cosine similarity', side = 1, line = 5.5, font = 2, cex = 3)#
+## Add text:#
+arrows(x0 = abrasive_contact_x, y0 = 0.8, y1 = 0.12, code = 2, lwd = 5)#
+text(x = abrasive_contact_x, y = 1.1, labels = '"abrasive contact"', font = 2, cex = 2.2, xpd = T)#
+arrows(x0 = sweet_music_x, y0 = 0.8, y1 = 0.12, code = 2, lwd = 5)#
+text(x = sweet_music_x, y = 1.1, labels = '"sweet music"', font = 2, cex = 2.2, xpd = T)
+quartz('', 9.5, 7.5)#
+par(mai = c(2.5, 1, 1, 1.5))#
+plot(1, 1,#
+	type = 'n', xaxt = 'n', yaxt = 'n', xlab = '', ylab = '', bty = 'n',#
+	xlim = c(0, 1), ylim = c(0, 5), yaxs = 'i')#
+polygon(x = c(xdens$x, rev(xdens$x)), c(xdens$y, rep(0, length(xdens$y))),#
+	col = 'lightgray', border = NA)#
+points(x = xdens$x, y = xdens$y, col = 'gray40', type = 'l', lwd = 4)#
+# polygon(x = c(xdens2$x, rev(xdens2$x)), c(xdens2$y, rep(0, length(xdens2$y))),#
+	# col = rgb(0.4, 0.1, 0.4, 0.6), border = NA)#
+# points(x = xdens2$x, y = xdens2$y, col = 'purple4', type = 'l', lwd = 4)#
+axis(side = 1, at = seq(0, 1, 0.25), font = 2, lwd = 3, lwd.ticks = 3,#
+	cex.axis = 1.5, labels = FALSE)#
+axis(side = 1, at = seq(0, 1, 0.25), font = 2, lwd = 3, lwd.ticks = 3,#
+	cex.axis = 2, tick = F, line = 0.8)#
+mtext('Cosine similarity', side = 1, line = 5.5, font = 2, cex = 3)#
+## Add text:#
+arrows(x0 = abrasive_contact_x, y0 = 0.8, y1 = 0.18, code = 2, lwd = 5)#
+text(x = abrasive_contact_x, y = 1.1, labels = '"abrasive contact"', font = 2, cex = 2.2, xpd = T)#
+arrows(x0 = sweet_music_x, y0 = 0.8, y1 = 0.18, code = 2, lwd = 5)#
+text(x = sweet_music_x, y = 1.1, labels = '"sweet music"', font = 2, cex = 2.2, xpd = T)
+quartz('', 9.5, 7.5)#
+par(mai = c(2.5, 1, 1, 1.5))#
+plot(1, 1,#
+	type = 'n', xaxt = 'n', yaxt = 'n', xlab = '', ylab = '', bty = 'n',#
+	xlim = c(0, 1), ylim = c(0, 5), yaxs = 'i')#
+polygon(x = c(xdens$x, rev(xdens$x)), c(xdens$y, rep(0, length(xdens$y))),#
+	col = 'lightgray', border = NA)#
+points(x = xdens$x, y = xdens$y, col = 'gray40', type = 'l', lwd = 4)#
+# polygon(x = c(xdens2$x, rev(xdens2$x)), c(xdens2$y, rep(0, length(xdens2$y))),#
+	# col = rgb(0.4, 0.1, 0.4, 0.6), border = NA)#
+# points(x = xdens2$x, y = xdens2$y, col = 'purple4', type = 'l', lwd = 4)#
+axis(side = 1, at = seq(0, 1, 0.25), font = 2, lwd = 3, lwd.ticks = 3,#
+	cex.axis = 1.5, labels = FALSE)#
+axis(side = 1, at = seq(0, 1, 0.25), font = 2, lwd = 3, lwd.ticks = 3,#
+	cex.axis = 2, tick = F, line = 0.8)#
+mtext('Cosine similarity', side = 1, line = 5.5, font = 2, cex = 3)#
+## Add text:
+arrows(x0 = sweet_music_x, y0 = 0.8, y1 = 0.18, code = 2, lwd = 5)#
+text(x = sweet_music_x, y = 1.1, labels = '"sweet music"', font = 2, cex = 2.2, xpd = T)
+quartz('', 9.5, 7.5)#
+par(mai = c(2.5, 1, 1, 1.5))#
+plot(1, 1,#
+	type = 'n', xaxt = 'n', yaxt = 'n', xlab = '', ylab = '', bty = 'n',#
+	xlim = c(0, 1), ylim = c(0, 5), yaxs = 'i')#
+polygon(x = c(xdens$x, rev(xdens$x)), c(xdens$y, rep(0, length(xdens$y))),#
+	col = 'lightgray', border = NA)#
+points(x = xdens$x, y = xdens$y, col = 'gray40', type = 'l', lwd = 4)#
+# polygon(x = c(xdens2$x, rev(xdens2$x)), c(xdens2$y, rep(0, length(xdens2$y))),#
+	# col = rgb(0.4, 0.1, 0.4, 0.6), border = NA)#
+# points(x = xdens2$x, y = xdens2$y, col = 'purple4', type = 'l', lwd = 4)#
+axis(side = 1, at = seq(0, 1, 0.25), font = 2, lwd = 3, lwd.ticks = 3,#
+	cex.axis = 1.5, labels = FALSE)#
+axis(side = 1, at = seq(0, 1, 0.25), font = 2, lwd = 3, lwd.ticks = 3,#
+	cex.axis = 2, tick = F, line = 0.8)#
+mtext('Cosine similarity', side = 1, line = 5.5, font = 2, cex = 3)#
+## Add text:#
+arrows(x0 = abrasive_contact_x, y0 = 0.8, y1 = 0.18, code = 2, lwd = 5)#
+text(x = abrasive_contact_x, y = 1.1, labels = '"abrasive contact"', font = 2, cex = 2.2, xpd = T)#
+arrows(x0 = sweet_music_x, y0 = 0.8, y1 = 0.18, code = 2, lwd = 5)#
+text(x = sweet_music_x, y = 1.1, labels = '"sweet music"', font = 2, cex = 2.2, xpd = T)
+quartz('', 9.5, 7.5)#
+par(mai = c(2.5, 1, 1, 1.5))#
+plot(1, 1,#
+	type = 'n', xaxt = 'n', yaxt = 'n', xlab = '', ylab = '', bty = 'n',#
+	xlim = c(0, 1), ylim = c(0, 5), yaxs = 'i')#
+polygon(x = c(xdens$x, rev(xdens$x)), c(xdens$y, rep(0, length(xdens$y))),#
+	col = 'lightgray', border = NA)#
+points(x = xdens$x, y = xdens$y, col = 'gray40', type = 'l', lwd = 4)#
+polygon(x = c(xdens2$x, rev(xdens2$x)), c(xdens2$y, rep(0, length(xdens2$y))),#
+	col = rgb(0.4, 0.1, 0.4, 0.6), border = NA)#
+points(x = xdens2$x, y = xdens2$y, col = 'purple4', type = 'l', lwd = 4)#
+axis(side = 1, at = seq(0, 1, 0.25), font = 2, lwd = 3, lwd.ticks = 3,#
+	cex.axis = 1.5, labels = FALSE)#
+axis(side = 1, at = seq(0, 1, 0.25), font = 2, lwd = 3, lwd.ticks = 3,#
+	cex.axis = 2, tick = F, line = 0.8)#
+mtext('Cosine similarity', side = 1, line = 5.5, font = 2, cex = 3)#
+## Add text:#
+arrows(x0 = abrasive_contact_x, y0 = 0.8, y1 = 0.18, code = 2, lwd = 5)#
+text(x = abrasive_contact_x, y = 1.1, labels = '"abrasive contact"', font = 2, cex = 2.2, xpd = T)#
+arrows(x0 = sweet_music_x, y0 = 0.8, y1 = 0.18, code = 2, lwd = 5)#
+text(x = sweet_music_x, y = 1.1, labels = '"sweet music"', font = 2, cex = 2.2, xpd = T)
+quartz('', 9.5, 7.5)#
+par(mai = c(2.5, 1, 1, 1.5))#
+plot(1, 1,#
+	type = 'n', xaxt = 'n', yaxt = 'n', xlab = '', ylab = '', bty = 'n',#
+	xlim = c(0, 1), ylim = c(0, 5), yaxs = 'i')#
+polygon(x = c(xdens$x, rev(xdens$x)), c(xdens$y, rep(0, length(xdens$y))),#
+	col = 'lightgray', border = NA)#
+points(x = xdens$x, y = xdens$y, col = 'gray40', type = 'l', lwd = 4)#
+polygon(x = c(xdens2$x, rev(xdens2$x)), c(xdens2$y, rep(0, length(xdens2$y))),#
+	col = rgb(0.4, 0.1, 0.4, 0.6), border = NA)#
+points(x = xdens2$x, y = xdens2$y, col = 'black', type = 'l', lwd = 4)#
+axis(side = 1, at = seq(0, 1, 0.25), font = 2, lwd = 3, lwd.ticks = 3,#
+	cex.axis = 1.5, labels = FALSE)#
+axis(side = 1, at = seq(0, 1, 0.25), font = 2, lwd = 3, lwd.ticks = 3,#
+	cex.axis = 2, tick = F, line = 0.8)#
+mtext('Cosine similarity', side = 1, line = 5.5, font = 2, cex = 3)#
+## Add text:#
+arrows(x0 = abrasive_contact_x, y0 = 0.8, y1 = 0.18, code = 2, lwd = 5)#
+text(x = abrasive_contact_x, y = 1.1, labels = '"abrasive contact"', font = 2, cex = 2.2, xpd = T)#
+arrows(x0 = sweet_music_x, y0 = 0.8, y1 = 0.18, code = 2, lwd = 5)#
+text(x = sweet_music_x, y = 1.1, labels = '"sweet music"', font = 2, cex = 2.2, xpd = T)
+quartz('', 9.5, 7.5)#
+par(mai = c(2.5, 1, 1, 1.5))#
+plot(1, 1,#
+	type = 'n', xaxt = 'n', yaxt = 'n', xlab = '', ylab = '', bty = 'n',#
+	xlim = c(0, 1), ylim = c(0, 5), yaxs = 'i')#
+polygon(x = c(xdens$x, rev(xdens$x)), c(xdens$y, rep(0, length(xdens$y))),#
+	col = 'lightgray', border = NA)#
+points(x = xdens$x, y = xdens$y, col = 'gray40', type = 'l', lwd = 4)#
+polygon(x = c(xdens2$x, rev(xdens2$x)), c(xdens2$y, rep(0, length(xdens2$y))),#
+	col = rgb(0.4, 0.1, 0.4, 0.6), border = NA)#
+points(x = xdens2$x, y = xdens2$y, col = 'gray20', type = 'l', lwd = 4)#
+axis(side = 1, at = seq(0, 1, 0.25), font = 2, lwd = 3, lwd.ticks = 3,#
+	cex.axis = 1.5, labels = FALSE)#
+axis(side = 1, at = seq(0, 1, 0.25), font = 2, lwd = 3, lwd.ticks = 3,#
+	cex.axis = 2, tick = F, line = 0.8)#
+mtext('Cosine similarity', side = 1, line = 5.5, font = 2, cex = 3)#
+## Add text:#
+arrows(x0 = abrasive_contact_x, y0 = 0.8, y1 = 0.18, code = 2, lwd = 5)#
+text(x = abrasive_contact_x, y = 1.1, labels = '"abrasive contact"', font = 2, cex = 2.2, xpd = T)#
+arrows(x0 = sweet_music_x, y0 = 0.8, y1 = 0.18, code = 2, lwd = 5)#
+text(x = sweet_music_x, y = 1.1, labels = '"sweet music"', font = 2, cex = 2.2, xpd = T)
+quartz('', 9.5, 7.5)#
+par(mai = c(2.5, 1, 1, 1.5))#
+plot(1, 1,#
+	type = 'n', xaxt = 'n', yaxt = 'n', xlab = '', ylab = '', bty = 'n',#
+	xlim = c(0, 1), ylim = c(0, 5), yaxs = 'i')#
+polygon(x = c(xdens$x, rev(xdens$x)), c(xdens$y, rep(0, length(xdens$y))),#
+	col = 'lightgray', border = NA)#
+points(x = xdens$x, y = xdens$y, col = 'gray40', type = 'l', lwd = 4)#
+polygon(x = c(xdens2$x, rev(xdens2$x)), c(xdens2$y, rep(0, length(xdens2$y))),#
+	col = rgb(0.4, 0.1, 0.4, 0.8), border = NA)#
+points(x = xdens2$x, y = xdens2$y, col = 'gray20', type = 'l', lwd = 4)#
+axis(side = 1, at = seq(0, 1, 0.25), font = 2, lwd = 3, lwd.ticks = 3,#
+	cex.axis = 1.5, labels = FALSE)#
+axis(side = 1, at = seq(0, 1, 0.25), font = 2, lwd = 3, lwd.ticks = 3,#
+	cex.axis = 2, tick = F, line = 0.8)#
+mtext('Cosine similarity', side = 1, line = 5.5, font = 2, cex = 3)#
+## Add text:#
+arrows(x0 = abrasive_contact_x, y0 = 0.8, y1 = 0.18, code = 2, lwd = 5)#
+text(x = abrasive_contact_x, y = 1.1, labels = '"abrasive contact"', font = 2, cex = 2.2, xpd = T)#
+arrows(x0 = sweet_music_x, y0 = 0.8, y1 = 0.18, code = 2, lwd = 5)#
+text(x = sweet_music_x, y = 1.1, labels = '"sweet music"', font = 2, cex = 2.2, xpd = T)
+quartz('', 9.5, 7.5)#
+par(mai = c(2.5, 1, 1, 1.5))#
+plot(1, 1,#
+	type = 'n', xaxt = 'n', yaxt = 'n', xlab = '', ylab = '', bty = 'n',#
+	xlim = c(0, 1), ylim = c(0, 5), yaxs = 'i')#
+polygon(x = c(xdens$x, rev(xdens$x)), c(xdens$y, rep(0, length(xdens$y))),#
+	col = 'lightgray', border = NA)#
+points(x = xdens$x, y = xdens$y, col = 'gray40', type = 'l', lwd = 4)#
+polygon(x = c(xdens2$x, rev(xdens2$x)), c(xdens2$y, rep(0, length(xdens2$y))),#
+	col = rgb(0.4, 0.1, 0.4, 0.4), border = NA)#
+points(x = xdens2$x, y = xdens2$y, col = 'gray20', type = 'l', lwd = 4)#
+axis(side = 1, at = seq(0, 1, 0.25), font = 2, lwd = 3, lwd.ticks = 3,#
+	cex.axis = 1.5, labels = FALSE)#
+axis(side = 1, at = seq(0, 1, 0.25), font = 2, lwd = 3, lwd.ticks = 3,#
+	cex.axis = 2, tick = F, line = 0.8)#
+mtext('Cosine similarity', side = 1, line = 5.5, font = 2, cex = 3)#
+## Add text:#
+arrows(x0 = abrasive_contact_x, y0 = 0.8, y1 = 0.18, code = 2, lwd = 5)#
+text(x = abrasive_contact_x, y = 1.1, labels = '"abrasive contact"', font = 2, cex = 2.2, xpd = T)#
+arrows(x0 = sweet_music_x, y0 = 0.8, y1 = 0.18, code = 2, lwd = 5)#
+text(x = sweet_music_x, y = 1.1, labels = '"sweet music"', font = 2, cex = 2.2, xpd = T)
+quartz('', 9.5, 7.5)#
+par(mai = c(2.5, 1, 1, 1.5))#
+plot(1, 1,#
+	type = 'n', xaxt = 'n', yaxt = 'n', xlab = '', ylab = '', bty = 'n',#
+	xlim = c(0, 1), ylim = c(0, 5), yaxs = 'i')#
+polygon(x = c(xdens$x, rev(xdens$x)), c(xdens$y, rep(0, length(xdens$y))),#
+	col = 'lightgray', border = NA)#
+points(x = xdens$x, y = xdens$y, col = 'gray40', type = 'l', lwd = 4)#
+polygon(x = c(xdens2$x, rev(xdens2$x)), c(xdens2$y, rep(0, length(xdens2$y))),#
+	col = rgb(0.4, 0.1, 0.4, 0.4), border = NA)#
+points(x = xdens2$x, y = xdens2$y, col = rgb(0.4, 0.1, 0.4, 1), type = 'l', lwd = 4)#
+axis(side = 1, at = seq(0, 1, 0.25), font = 2, lwd = 3, lwd.ticks = 3,#
+	cex.axis = 1.5, labels = FALSE)#
+axis(side = 1, at = seq(0, 1, 0.25), font = 2, lwd = 3, lwd.ticks = 3,#
+	cex.axis = 2, tick = F, line = 0.8)#
+mtext('Cosine similarity', side = 1, line = 5.5, font = 2, cex = 3)#
+## Add text:#
+arrows(x0 = abrasive_contact_x, y0 = 0.8, y1 = 0.18, code = 2, lwd = 5)#
+text(x = abrasive_contact_x, y = 1.1, labels = '"abrasive contact"', font = 2, cex = 2.2, xpd = T)#
+arrows(x0 = sweet_music_x, y0 = 0.8, y1 = 0.18, code = 2, lwd = 5)#
+text(x = sweet_music_x, y = 1.1, labels = '"sweet music"', font = 2, cex = 2.2, xpd = T)
+quartz('', 9.5, 7.5)#
+par(mai = c(2.5, 1, 1, 1.5))#
+plot(1, 1,#
+	type = 'n', xaxt = 'n', yaxt = 'n', xlab = '', ylab = '', bty = 'n',#
+	xlim = c(0, 1), ylim = c(0, 5), yaxs = 'i')#
+polygon(x = c(xdens$x, rev(xdens$x)), c(xdens$y, rep(0, length(xdens$y))),#
+	col = 'lightgray', border = NA)#
+points(x = xdens$x, y = xdens$y, col = 'gray40', type = 'l', lwd = 4)#
+polygon(x = c(xdens2$x, rev(xdens2$x)), c(xdens2$y, rep(0, length(xdens2$y))),#
+	col = rgb(0.4, 0.1, 0.4, 0.3), border = NA)#
+points(x = xdens2$x, y = xdens2$y, col = rgb(0.4, 0.1, 0.4, 0.9), type = 'l', lwd = 4)#
+axis(side = 1, at = seq(0, 1, 0.25), font = 2, lwd = 3, lwd.ticks = 3,#
+	cex.axis = 1.5, labels = FALSE)#
+axis(side = 1, at = seq(0, 1, 0.25), font = 2, lwd = 3, lwd.ticks = 3,#
+	cex.axis = 2, tick = F, line = 0.8)#
+mtext('Cosine similarity', side = 1, line = 5.5, font = 2, cex = 3)#
+## Add text:#
+arrows(x0 = abrasive_contact_x, y0 = 0.8, y1 = 0.18, code = 2, lwd = 5)#
+text(x = abrasive_contact_x, y = 1.1, labels = '"abrasive contact"', font = 2, cex = 2.2, xpd = T)#
+arrows(x0 = sweet_music_x, y0 = 0.8, y1 = 0.18, code = 2, lwd = 5)#
+text(x = sweet_music_x, y = 1.1, labels = '"sweet music"', font = 2, cex = 2.2, xpd = T)
+## Bodo Winter#
+## September 18, 2015; November 11, 2015#
+## Relationships between sensory modalities#
+#
+##------------------------------------------------------------------#
+## Pre-processing:#
+##------------------------------------------------------------------#
+#
+## Options:#
+#
+options(stringsAsFactors = F)#
+#
+## Load in libraries:#
+#
+library(dplyr)#
+library(MuMIn)#
+#
+## Define path to parent directory:#
+#
+mainPath <- '/Users/teeniematlock/Desktop/sense_phd/analysis'#
+#
+## Load in plotting functions:#
+#
+source(file.path(mainPath, 'functions/plotting_functions.R'))#
+#
+## Load in data:#
+#
+setwd(file.path(mainPath, 'data/'))#
+l <- read.csv('lynott_connell_2009_adj_norms.csv')#
+strik_nouns <- read.csv('strik_lievers_2015_nouns_with_freq.csv')	# strik noun with modality#
+#
+## Load in COCA frequencies that do not include the cross-modal metaphors!:#
+#
+adj_freq <- read.csv('COCA_adj_frequencies_without_metaphor.csv')#
+l$Freq <- adj_freq[match(l$Word, adj_freq$Word),]$Freq#
+#
+## Append adjective and strik:#
+#
+COCA <- read.csv('COCA_adj_noun.csv')#
+strik <- COCA#
+strik$Modality <- strik_nouns[match(strik$Noun, strik_nouns$Word),]$Modality#
+#
+## Reduce to those that are not NA:#
+#
+nrow(strik)	# 149,387#
+strik <- filter(strik, !is.na(Modality))#
+nrow(strik)	# 4,418#
+#
+## Merge adjective modalities into strik dataset:#
+#
+strik$AdjModality <- l[match(strik$Word, l$Word),]$DominantModality#
+#
+## Create a same vs. different variable for Strik:#
+#
+strik$Same <- ifelse(strik$Modality == strik$AdjModality, 'yes', 'no')#
+#
+## Add dimensionality information and get rid of dimension words:#
+#
+sem <- read.csv('lynott_connell_2009_semantic_codings.csv')#
+strik$Dimension <- sem[match(strik$Word, sem$Word), ]$Dimension#
+#
+## Get rid of dimension words:#
+#
+nrow(strik)	# 4,418#
+strik <- filter(strik, Dimension == 'no')#
+nrow(strik)	# 3,686#
+#
+## Get rid of dimension words in the Lynott dataset (from which the simulation will be drawn):#
+#
+l$Dimension <- sem[match(l$Word, sem$Word), ]$Dimension#
+l <- filter(l, Dimension == 'no')#
+#
+## Get rid of instruments in both datasets, strik dataset:#
+#
+nrow(strik)	# 3,686#
+strik <- strik[!(strik$Noun %in% strik_nouns[strik_nouns$Instrument == 'yes',]$Word),]#
+nrow(strik)	# 3,686#
+#
+## Get rid of instruments in both datasets, strik noun dataset (later for loop):#
+#
+nrow(strik_nouns)	# 192#
+strik_nouns <- filter(strik_nouns, Instrument == 'no')#
+nrow(strik_nouns)	# 192#
+#
+## Check some examples:#
+#
+head(arrange(strik[strik$Same == 'no',], desc(Freq)), 20)#
+tail(arrange(strik[strik$Same == 'no',], desc(Freq)), 20)#
+##------------------------------------------------------------------#
+## Create frequency Ullman-style table with token frequencies:#
+##------------------------------------------------------------------#
+#
+## Summarize token frequencies:#
+#
+strik_tokens <- aggregate(Freq ~ Modality * AdjModality, strik, sum)#
+#
+## Create an empty table:#
+#
+stab <- matrix(numeric(25), nrow = 5)#
+rownames(stab) <- c('Haptic', 'Gustatory', 'Olfactory', 'Auditory', 'Visual')#
+colnames(stab) <- rownames(stab)#
+#
+## Loop through the tables and add token frequencies:#
+#
+for (i in 1:nrow(stab)) {#
+	for (j in 1:nrow(stab)) {#
+			this_row <- strik_tokens$AdjModality == rownames(stab)[i]#
+#
+			strik_row <- this_row & strik_tokens$Modality == colnames(stab)[j]#
+			stab[i,j] <- strik_tokens[strik_row,]$Freq#
+		}#
+	}#
+#
+## Look at it:#
+#
+stab#
+rowSums(stab)#
+colSums(stab)#
+sum(stab)#
+#
+## Without diagonal:#
+#
+nodiag <- stab#
+diag(nodiag) <- 0#
+rowSums(nodiag)#
+colSums(nodiag)#
+#
+## How many match according to Shen's hierarchy?#
+#
+matches <- c(F, T, T, T, T,#
+	F, F, T, T, T,#
+	F, F, F, T, T,#
+	F, F, F, F, T,#
+	F, F, F, T, F)#
+matches <- matrix(matches, nrow = 5, byrow = T)#
+sum(nodiag[matches]) / sum(nodiag)#
+#
+## Perform a binomial test of this#
+# (knowing that this technically violates independence because these are token counts):#
+#
+binom.test(c(sum(nodiag[matches]), sum(nodiag[!matches])))#
+#
+## How many same modality cases?#
+#
+sum(diag(stab)) / sum(stab)#
+##------------------------------------------------------------------#
+## Create frequency Ullman-style table with type frequencies:#
+##------------------------------------------------------------------#
+#
+## Create an empty table:#
+#
+stype <- matrix(numeric(25), nrow = 5)#
+rownames(stype) <- c('Haptic', 'Gustatory', 'Olfactory', 'Auditory', 'Visual')#
+colnames(stype) <- rownames(stype)#
+#
+## Loop through the tables and add token frequencies:#
+#
+for (i in 1:nrow(stype)) {#
+	for (j in 1:nrow(stype)) {#
+			these_rows <- strik$AdjModality == rownames(stab)[i]#
+#
+			strik_row <- these_rows & strik$Modality == colnames(stab)[j]#
+			stype[i, j] <- sum(strik_row)#
+		}#
+	}#
+#
+## Look at it:#
+#
+stype#
+rowSums(stype)#
+colSums(stype)#
+sum(stype)#
+#
+## Without diagonal:#
+#
+nodiag <- stype#
+diag(nodiag) <- 0#
+rowSums(nodiag)#
+colSums(nodiag)#
+#
+## How many Shen-matches?#
+#
+sum(nodiag[matches]) / sum(nodiag)#
+#
+## Perform a binomial test of this#
+# (knowing that this technically violates independence because these are token counts):#
+#
+binom.test(c(sum(nodiag[matches]), sum(nodiag[!matches])))#
+#
+## How many same modality cases?#
+#
+sum(diag(stype)) / sum(stype)#
+##------------------------------------------------------------------#
+## Looking at unique adjectives mapped (types) rather than tokens:#
+##------------------------------------------------------------------#
+## (not reported in main body of the texT)#
+#
+## Create table:#
+#
+ptab <- table(strik$AdjModality, strik$Modality)#
+ptab <- ptab[rownames(stab),rownames(stab)]#
+#
+## How many unique words are mapped?#
+#
+utab <- matrix(numeric(25), nrow = 5)#
+rownames(utab) <- c('Haptic', 'Gustatory', 'Olfactory', 'Auditory', 'Visual')#
+colnames(utab) <- rownames(utab)#
+#
+## Loop through the tables and add token frequencies:#
+#
+for (i in 1:nrow(utab)) {#
+	for (j in 1:nrow(utab)) {#
+			this_row <- strik$AdjModality == rownames(utab)[i]#
+#
+			strik_row <- this_row & strik$Modality == colnames(utab)[j]#
+			these_adjs <- unique(strik[strik_row,]$Word)#
+			N_adj <- length(these_adjs)#
+			utab[i,j] <- N_adj#
+		}#
+	}#
+utab#
+#
+## How many adjectives are mapped in percentages?#
+#
+## Create an empty table:#
+#
+mapped <- matrix(numeric(25), nrow = 5)#
+rownames(mapped) <- c('Haptic', 'Gustatory', 'Olfactory', 'Auditory', 'Visual')#
+colnames(mapped) <- rownames(mapped)#
+#
+## Loop through the tables and add token frequencies:#
+#
+for (i in 1:nrow(mapped)) {#
+	for (j in 1:nrow(mapped)) {#
+			this_row <- strik$AdjModality == rownames(mapped)[i]#
+#
+			strik_row <- this_row & strik$Modality == colnames(mapped)[j]#
+			these_adjs <- unique(strik[strik_row,]$Word)#
+			N_adj <- length(these_adjs)#
+			N_full <- nrow(l[l$DominantModality == rownames(mapped)[i],])#
+			mapped[i,j] <- N_adj / N_full#
+		}#
+	}#
+round(mapped, 2)#
+#
+## Get source and target means:#
+#
+round(rowMeans(mapped), 2)#
+round(colMeans(mapped), 2)#
+#
+## Get rid of diagonal to get means:#
+#
+mapnodiag <- mapped#
+diag(mapnodiag) <- 0#
+#
+round(rowMeans(mapnodiag), 2)#
+round(colMeans(mapnodiag), 2)#
+##------------------------------------------------------------------#
+## Preprocessing for logistic regression analysis:#
+##------------------------------------------------------------------#
+#
+## Feb 7, 2016: Differentiate between hierarchy-fit and not:#
+#
+strik$Fit <- 'no'#
+adj_mod <- strik$AdjModality#
+noun_mod <- strik$Modality#
+hierarchy_fit <- adj_mod == 'Haptic' & noun_mod != 'Haptic'#
+hierarchy_fit <- hierarchy_fit | (adj_mod == 'Gustatory' & noun_mod %in%#
+	c('Olfactory', 'Auditory', 'Visual'))#
+hierarchy_fit <- hierarchy_fit | (adj_mod == 'Olfactory' & noun_mod %in%#
+	c('Auditory', 'Visual'))	#
+hierarchy_fit <- hierarchy_fit | (adj_mod == 'Auditory' & noun_mod == 'Visual')#
+hierarchy_fit <- hierarchy_fit | (adj_mod == 'Visual' & noun_mod == 'Auditory')#
+strik[hierarchy_fit,]$Fit <- 'yes'#
+#
+## Which adjectives are increased in frequency, first, get strik counts:#
+#
+sfreq <- aggregate(Freq ~ Word, strik[strik$Same == 'no',], sum)#
+# Feb 7, 2016 --- if you want only those that fit the hierarchy:#
+# sfreq <- aggregate(Freq ~ Word, strik[strik$Fit == 'yes',], sum)#
+#
+## Create a mapped column:#
+#
+sfreq$Mapped <- 'yes'#
+#
+## Create data frame of those that were not mapped:#
+#
+notmapped <- data.frame(Word = setdiff(l$Word, sfreq$Word))#
+notmapped$Freq <- 0#
+notmapped$Mapped <- 'no'#
+#
+## Merge:#
+#
+sfreq <- rbind(sfreq, notmapped)#
+#
+## Then, get full counts:#
+#
+sfreq$BaseFreq <- adj_freq[match(sfreq$Word, adj_freq$Word),]$Freq#
+#
+## Exclude those that are never attested:#
+#
+sfreq <- filter(sfreq, !is.na(sfreq$BaseFreq))#
+#
+## Ratio and log ratio:#
+#
+sfreq <- mutate(sfreq, #
+	Ratio = Freq / BaseFreq)#
+#
+## Order:#
+#
+sfreq <- arrange(sfreq, desc(Ratio))#
+## Add information:#
+#
+sfreq$Modality <- l[match(sfreq$Word, l$Word),]$DominantModality#
+sfreq$Exclusivity <- l[match(sfreq$Word, l$Word),]$ModalityExclusivity#
+#
+## Add valence information:#
+#
+val <- read.csv('adjective_context_valence.csv')#
+sfreq$AbsV <- val[match(sfreq$Word, val$Word),]$AbsV#
+sfreq$AbsSent <- val[match(sfreq$Word, val$Word),]$AbsSent#
+sfreq$ValMax <- val[match(sfreq$Word, val$Word),]$ValMax#
+#
+## Add iconicity:#
+#
+icon <- read.csv('iconicity_ratings.csv')#
+sfreq$Iconicity <- icon[match(sfreq$Word, icon$Word),]$Iconicity#
+#
+## Add semantic information:#
+#
+sfreq <- cbind(sfreq, sem[match(sfreq$Word, sem$Word),-1])
+sfreq <- mutate(sfreq, Mapped = as.factor(Mapped))#
+#
+## How does frequency affect this?#
+#
+summary(xmdl.freq <- glm(Mapped ~ log10(BaseFreq), sfreq, family = 'binomial'))#
+#
+## Are those words mapped overall more or less valenced?#
+#
+summary(xmdl.absv <- glm(Mapped ~ AbsV + log10(BaseFreq),#
+	sfreq, family = 'binomial'))#
+summary(xmdl.abssent <- glm(Mapped ~ AbsSent + log10(BaseFreq),#
+	sfreq, family = 'binomial'))#
+summary(xmdl.valmax <- glm(Mapped ~ ValMax + log10(BaseFreq),#
+	sfreq, family = 'binomial'))#
+r.squaredGLMM(xmdl.absv)[1] - r.squaredGLMM(xmdl.freq)[1]#
+r.squaredGLMM(xmdl.abssent)[1] - r.squaredGLMM(xmdl.freq)[1]#
+r.squaredGLMM(xmdl.valmax)[1] - r.squaredGLMM(xmdl.freq)[1]#
+#
+## Assess iconicity:#
+#
+summary(xmdl.icon <- glm(Mapped ~ Iconicity + log10(BaseFreq),#
+	sfreq, family = 'binomial'))#
+r.squaredGLMM(xmdl.icon)[1] - r.squaredGLMM(xmdl.freq)[1]#
+## Get predictions of affect:#
+#
+summary(xmdl.affect <- glm(Mapped ~ ValMax, sfreq, family = 'binomial'))#
+xpred <- data.frame(ValMax = seq(0, 2, 0.01))#
+xpred <- cbind(xpred,#
+	as.data.frame(predict(xmdl.affect, newdata = xpred, type = 'link', se.fit = T)[1:2]))#
+xpred$UB <- plogis(xpred$fit + 1.96 * xpred$se.fit)#
+xpred$LB <- plogis(xpred$fit - 1.96 * xpred$se.fit)#
+xpred$fit <- plogis(xpred$fit)#
+#
+## Get predictions of iconicity:#
+#
+summary(xmdl.icon <- glm(Mapped ~ Iconicity, sfreq, family = 'binomial'))#
+xpred.icon <- data.frame(Iconicity = seq(-5, 5, 0.01))#
+xpred.icon <- cbind(xpred.icon,#
+	as.data.frame(predict(xmdl.icon, newdata = xpred.icon, type = 'link', se.fit = T)[1:2]))#
+xpred.icon$UB <- plogis(xpred.icon$fit + 1.96 * xpred.icon$se.fit)#
+xpred.icon$LB <- plogis(xpred.icon$fit - 1.96 * xpred.icon$se.fit)#
+xpred.icon$fit <- plogis(xpred.icon$fit)#
+#
+## Plot affect and iconicity together:#
+#
+set.seed(42)#
+quartz('', 11, 5)#
+par(mfrow = c(1, 2), omi = c(1, 1.35, 0.85, 0.25), mai = c(0, 0.25, 0, 0))#
+emptyplot(xlim = c(0, 0.2), ylim = c(-0.1, 1.2), AB = '(a)')#
+points(sfreq$ValMax, jitter(as.numeric(sfreq$Mapped) - 1, 0.2), col = rgb(0, 0, 0, 0.4), pch = 19)#
+polygon(x = c(xpred$ValMax, rev(xpred$ValMax)),#
+	y = c(xpred$UB, rev(xpred$LB)), border = F, col = rgb(0, 0, 0, 0.4))#
+points(xpred$ValMax, xpred$fit, lwd = 3, type = 'l')#
+abline(h = c(0, 1), lwd = 2, lty = 2)#
+axis(side = 2, at = c(0, 1), las = 2, font = 2, labels = c('Not mapped', 'Mapped'), cex.axis = 1.25)#
+axis(side = 1, cex.axis = 1.25, lwd.ticks = 2, font = 2, at = seq(0, 2, 0.5))#
+mtext('Absolute Valence', side = 1, line = 3, font = 2, cex = 1.6)#
+emptyplot(xlim = c(-2.5, 4.5), ylim = c(-0.1, 1.2), AB = '(b)')#
+points(sfreq$Iconicity, jitter(as.numeric(sfreq$Mapped) - 1, 0.2), col = rgb(0, 0, 0, 0.4), pch = 19)#
+polygon(x = c(xpred.icon$Iconicity, rev(xpred.icon$Iconicity)),#
+	y = c(xpred.icon$UB, rev(xpred.icon$LB)), border = F, col = rgb(0, 0, 0, 0.4))#
+points(xpred.icon$Iconicity, xpred.icon$fit, lwd = 3, type = 'l')#
+abline(h = c(0, 1), lwd = 2, lty = 2)#
+axis(side = 1, cex.axis = 1.25, lwd.ticks = 2, font = 2, at = seq(-2.5, 5, 2.5))#
+mtext('Iconicity', side = 1, line = 3, font = 2, cex = 1.6)
+setwd('/Users/teeniematlock/Desktop/research/senses_sensory_modalities/affect_modality/new_analysis/data/')#
+warr <- read.csv('warriner_2013_affective_norms.csv')#
+hash <- read.csv('NRC_hashtag_unigrams-pmilexicon.txt', sep = '\t', header = F)#
+#
+## Change colnames of Hashtag norms:#
+#
+hash <- rename(hash,#
+	Word = V1, Sent = V2, NumPos = V3, NumNeg = V4)#
+#
+## Create absolute valence scores:#
+#
+warr <- mutate(warr,#
+	AbsVal = abs(Val - mean(Val, na.rm = T)))#
+hash <- mutate(hash,#
+	AbsSent = abs(Sent - mean(Sent, na.rm = T)))#
+#
+## Merge into adj:#
+#
+adj$AbsV <- warr[match(adj$Word, warr$Word), ]$AbsVal#
+adj$AbsSent <- hash[match(adj$Word, hash$Word), ]$AbsSent#
+#
+## Load in SUBTLEX:#
+#
+setwd('/Users/teeniematlock/Desktop/research/senses_sensory_modalities/viberg/new_analysis/data/')#
+SUBTL <- read.csv('SUBTLEX_freq.csv')#
+#
+## Merge into adj:#
+#
+adj$AdjFreq <- SUBTL[match(adj$Word, SUBTL$Word), ]$FREQcount#
+adj <- mutate(adj, LogAdjFreq = log10(AdjFreq))#
+#
+## Center:#
+#
+att <- adj[adj$Attested == 'yes',]#
+att <- mutate(att,#
+	LogAdjFreq_c = LogAdjFreq - mean(LogAdjFreq, na.rm = T),#
+	AbsV_c = AbsV - mean(AbsV, na.rm = T),#
+	AbsSent_c = AbsSent - mean(AbsSent, na.rm = T),#
+	Cosine_c = Cosine - mean(Cosine))#
+#
+## Get rid of empty words:#
+#
+att$Word <- factor(att$Word)#
+#
+## Make models of this:#
+#
+summary(xmdl.warr <- lmer(LogFreq ~ Cosine_c * AbsV_c + (1|Word) + (1|Noun), att))#
+summary(xmdl.hash <- lmer(LogFreq ~ Cosine_c * AbsSent_c + (1|Word) + (1|Noun), att))#
+#
+## Check attested versus not attested:#
+#
+adj <- mutate(adj,#
+	LogAdjFreq_c = LogAdjFreq - mean(LogAdjFreq, na.rm = T),#
+	AbsV_c = AbsV - mean(AbsV, na.rm = T),#
+	AbsSent_c = AbsSent - mean(AbsSent, na.rm = T),#
+	Cosine_c = Cosine - mean(Cosine))#
+summary(xmdl.warr.log <- glmer(Attested ~ Cosine_c * AbsV_c + (1|Word) + (1|Noun), adj, family = 'binomial'))#
+summary(xmdl.hash.log <- glmer(Attested ~ Cosine_c * AbsSent_c + (1|Word) + (1|Noun), adj, family = 'binomial'))#
+#
+## Is Cosine correlated with valence?#
+#
+summary(xmdl.warr <- lmer(Cosine ~ AbsV_c + LogFreq + (1|Word) + (1|Noun), att))#
+summary(xmdl.hash <- lmer(Cosine ~ AbsSent_c + LogFreq + (1|Word) + (1|Noun), att))#
+#
+## With SER:#
+#
+SER <- read.csv('/Users/teeniematlock/Desktop/conferences_and_talks/2016/RaAM/juhasz_yap_2013_SER.csv')#
+att$SER <- SER[match(att$Noun, hash$Word), ]$SER#
+adj$SER <- SER[match(adj$Noun, hash$Word), ]$SER#
+#
+## High-SER once:#
+#
+att2 <- filter(att, SER > median(SER, na.rm = T))#
+adj2 <- filter(adj, SER > median(SER, na.rm = T))#
+#
+summary(xmdl.warr.log <- glmer(as.factor(Attested) ~ Cosine_c * AbsV_c + (1|Word) + (1|Noun), adj2, family = 'binomial'))#
+summary(xmdl.hash.log <- glmer(as.factor(Attested) ~ Cosine_c * AbsSent_c + (1|Word) + (1|Noun), adj2, family = 'binomial'))#
+#
+summary(xmdl.warr <- lmer(Cosine ~ AbsV_c + LogFreq + (1|Word) + (1|Noun), att2))#
+summary(xmdl.hash <- lmer(Cosine ~ AbsSent_c + LogFreq + (1|Word) + (1|Noun), att2))
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.6, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 0.2), ylim = c(-0.1, 1.2))#
+abline(h = c(0, 1), lwd = 2, lty = 2)#
+axis(side = 2, at = c(0, 1), las = 2, font = 2, labels = c('Not metaphor', 'Metaphor'), cex.axis = 1.75, lwd.ticks = 3)#
+box(lwd = 3)#
+axis(side = 1, cex.axis = 1.35, lwd.ticks = 3, font = 2, at = seq(0, 0.2, 0.05))#
+mtext('Absolute Valence', side = 1, line = 4.1, font = 2, cex = 2.3)#
+points(sfreq$ValMax, jitter(as.numeric(sfreq$Mapped) - 1, 0.2), col = rgb(0.35, 0.6, 0.45, 0.85), pch = 19)#
+polygon(x = c(xpred$ValMax, rev(xpred$ValMax)),#
+	y = c(xpred$UB, rev(xpred$LB)), border = F, col = rgb(0.1, 0.4, 0.8, 0.4))#
+points(xpred$ValMax, xpred$fit, lwd = 4, type = 'l', col = 'steelblue4')
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.6, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 0.2), ylim = c(-0.1, 1.2))#
+abline(h = c(0, 1), lwd = 2, lty = 2)#
+axis(side = 2, at = c(0, 1), las = 2, font = 2, labels = c('Not metaphor', 'Metaphor'), cex.axis = 1.75, lwd.ticks = 3)#
+box(lwd = 3)#
+axis(side = 1, cex.axis = 1.35, lwd.ticks = 3, font = 2, at = seq(0, 0.2, 0.05))#
+mtext('Absolute Valence', side = 1, line = 4.1, font = 2, cex = 2.3)#
+points(sfreq$ValMax, jitter(as.numeric(sfreq$Mapped) - 1, 0.2), col = rgb(0.35, 0.6, 0.45, 0.85), pch = 19)#
+polygon(x = c(xpred$ValMax, rev(xpred$ValMax)),#
+	y = c(xpred$UB, rev(xpred$LB)), border = F, col = rgb(0.1, 0.4, 0.8, 0.4))#
+points(xpred$ValMax, xpred$fit, lwd = 4, type = 'l', col = 'steelblue4')
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.6, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 0.2), ylim = c(-0.1, 1.2))#
+abline(h = c(0, 1), lwd = 2, lty = 2)#
+axis(side = 2, at = c(0, 1), las = 2, font = 2, labels = c('Not metaphor', 'Metaphor'), cex.axis = 1.75, lwd.ticks = 3)#
+box(lwd = 3)#
+axis(side = 1, cex.axis = 1.35, lwd.ticks = 3, font = 2, at = seq(0, 0.2, 0.05))#
+mtext('Absolute Valence', side = 1, line = 4.1, font = 2, cex = 2.3)#
+points(sfreq$ValMax, jitter(as.numeric(sfreq$Mapped) - 1, 0.2), col = rgb(0.35, 0.6, 0.45, 0.85), pch = 19)#
+polygon(x = c(xpred$ValMax, rev(xpred$ValMax)),#
+	y = c(xpred$UB, rev(xpred$LB)), border = F, col = rgb(0, 0, 0, 0.4))#
+points(xpred$ValMax, xpred$fit, lwd = 4, type = 'l', col = 'steelblue4')
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.6, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 0.2), ylim = c(-0.1, 1.2))#
+abline(h = c(0, 1), lwd = 2, lty = 2)#
+axis(side = 2, at = c(0, 1), las = 2, font = 2, labels = c('Not metaphor', 'Metaphor'), cex.axis = 1.75, lwd.ticks = 3)#
+box(lwd = 3)#
+axis(side = 1, cex.axis = 1.35, lwd.ticks = 3, font = 2, at = seq(0, 0.2, 0.05))#
+mtext('Absolute Valence', side = 1, line = 4.1, font = 2, cex = 2.3)#
+points(sfreq$ValMax, jitter(as.numeric(sfreq$Mapped) - 1, 0.2), col = rgb(0, 0, 0, 0.4), pch = 19)
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.6, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 0.2), ylim = c(-0.1, 1.2))#
+abline(h = c(0, 1), lwd = 2, lty = 2)#
+axis(side = 2, at = c(0, 1), las = 2, font = 2, labels = c('Not metaphor', 'Metaphor'), cex.axis = 1.75, lwd.ticks = 3)#
+box(lwd = 3)#
+axis(side = 1, cex.axis = 1.35, lwd.ticks = 3, font = 2, at = seq(0, 0.2, 0.05))#
+mtext('Absolute Valence', side = 1, line = 4.1, font = 2, cex = 2.3)#
+points(sfreq$ValMax, jitter(as.numeric(sfreq$Mapped) - 1, 0.2), col = rgb(0, 0, 0, 0.4), pch = 19, border = NA)
+?points
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.6, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 0.2), ylim = c(-0.1, 1.2))#
+abline(h = c(0, 1), lwd = 2, lty = 2)#
+axis(side = 2, at = c(0, 1), las = 2, font = 2, labels = c('Not metaphor', 'Metaphor'), cex.axis = 1.75, lwd.ticks = 3)#
+box(lwd = 3)#
+axis(side = 1, cex.axis = 1.35, lwd.ticks = 3, font = 2, at = seq(0, 0.2, 0.05))#
+mtext('Absolute Valence', side = 1, line = 4.1, font = 2, cex = 2.3)#
+points(sfreq$ValMax, jitter(as.numeric(sfreq$Mapped) - 1, 0.2), bg = rgb(0, 0, 0, 0.4), pch = 19)
+?points
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.6, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 0.2), ylim = c(-0.1, 1.2))#
+abline(h = c(0, 1), lwd = 2, lty = 2)#
+axis(side = 2, at = c(0, 1), las = 2, font = 2, labels = c('Not metaphor', 'Metaphor'), cex.axis = 1.75, lwd.ticks = 3)#
+box(lwd = 3)#
+axis(side = 1, cex.axis = 1.35, lwd.ticks = 3, font = 2, at = seq(0, 0.2, 0.05))#
+mtext('Absolute Valence', side = 1, line = 4.1, font = 2, cex = 2.3)#
+points(sfreq$ValMax, jitter(as.numeric(sfreq$Mapped) - 1, 0.2), bg = rgb(0, 0, 0, 0.4), pch = 21)
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.6, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 0.2), ylim = c(-0.1, 1.2))#
+abline(h = c(0, 1), lwd = 2, lty = 2)#
+axis(side = 2, at = c(0, 1), las = 2, font = 2, labels = c('Not metaphor', 'Metaphor'), cex.axis = 1.75, lwd.ticks = 3)#
+box(lwd = 3)#
+axis(side = 1, cex.axis = 1.35, lwd.ticks = 3, font = 2, at = seq(0, 0.2, 0.05))#
+mtext('Absolute Valence', side = 1, line = 4.1, font = 2, cex = 2.3)#
+points(sfreq$ValMax, jitter(as.numeric(sfreq$Mapped) - 1, 0.2), bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA)
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.6, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 0.2), ylim = c(-0.1, 1.2))#
+abline(h = c(0, 1), lwd = 2, lty = 2)#
+axis(side = 2, at = c(0, 1), las = 2, font = 2, labels = c('Not metaphor', 'Metaphor'), cex.axis = 1.75, lwd.ticks = 3)#
+box(lwd = 3)#
+axis(side = 1, cex.axis = 1.35, lwd.ticks = 3, font = 2, at = seq(0, 0.2, 0.05))#
+mtext('Absolute Valence', side = 1, line = 4.1, font = 2, cex = 2.3)#
+points(sfreq$ValMax, jitter(as.numeric(sfreq$Mapped) - 1, 0.2),#
+	bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA, cex = 1.5)
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.6, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 0.2), ylim = c(-0.1, 1.2))#
+abline(h = c(0, 1), lwd = 2, lty = 2)#
+axis(side = 2, at = c(0, 1), las = 2, font = 2, labels = c('Not metaphor', 'Metaphor'), cex.axis = 1.75, lwd.ticks = 3)#
+box(lwd = 3)#
+axis(side = 1, cex.axis = 1.35, lwd.ticks = 3, font = 2, at = seq(0, 0.2, 0.05))#
+mtext('Absolute Valence', side = 1, line = 4.1, font = 2, cex = 2.3)#
+points(sfreq$ValMax, jitter(as.numeric(sfreq$Mapped) - 1, 0.2),#
+	bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA, cex = 1.5)
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 0.2), ylim = c(-0.1, 1.2))#
+abline(h = c(0, 1), lwd = 2, lty = 2)#
+axis(side = 2, at = c(0, 1), las = 2, font = 2, labels = c('Not metaphor', 'Metaphor'), cex.axis = 2, lwd.ticks = 3)#
+box(lwd = 3)#
+axis(side = 1, cex.axis = 1.35, lwd.ticks = 3, font = 2, at = seq(0, 0.2, 0.05))#
+mtext('Absolute Valence', side = 1, line = 4.1, font = 2, cex = 2.3)#
+points(sfreq$ValMax, jitter(as.numeric(sfreq$Mapped) - 1, 0.2),#
+	bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA, cex = 1.5)
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 0.2), ylim = c(-0.1, 1.2))#
+abline(h = c(0, 1), lwd = 2, lty = 2)#
+axis(side = 2, at = c(0, 1), las = 2, font = 2, labels = c('Not metaphor', 'Metaphor'), cex.axis = 2, lwd.ticks = 3)#
+box(lwd = 3)#
+axis(side = 1, cex.axis = 1.35, lwd.ticks = 3, font = 2, at = seq(0, 0.2, 0.05))#
+mtext('Absolute Valence', side = 1, line = 4.5, font = 2, cex = 2.5)#
+points(sfreq$ValMax, jitter(as.numeric(sfreq$Mapped) - 1, 0.2),#
+	bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA, cex = 1.5)
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 0.2), ylim = c(-0.1, 1.2))#
+abline(h = c(0, 1), lwd = 2, lty = 2)#
+axis(side = 2, at = c(0, 1), las = 2, font = 2, labels = c('Not metaphor', 'Metaphor'), cex.axis = 2.1, lwd.ticks = 3)#
+box(lwd = 3)#
+axis(side = 1, cex.axis = 1.35, lwd.ticks = 3, font = 2, at = seq(0, 0.2, 0.05))#
+mtext('Absolute Valence', side = 1, line = 4.5, font = 2, cex = 2.5)#
+points(sfreq$ValMax, jitter(as.numeric(sfreq$Mapped) - 1, 0.2),#
+	bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA, cex = 1.5)
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 0.2), ylim = c(-0.1, 1.2))#
+abline(h = c(0, 1), lwd = 2, lty = 2)#
+axis(side = 2, at = c(0, 1), las = 2, font = 2, labels = c('Not metaphor', 'Metaphor'), cex.axis = 2.1, lwd.ticks = 3)#
+box(lwd = 3)#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 0.2, 0.05))#
+mtext('Absolute Valence', side = 1, line = 4.5, font = 2, cex = 2.5)#
+points(sfreq$ValMax, jitter(as.numeric(sfreq$Mapped) - 1, 0.2),#
+	bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA, cex = 1.5)
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 0.2), ylim = c(-0.1, 1.2))#
+abline(h = c(0, 1), lwd = 2, lty = 2)#
+axis(side = 2, at = c(0, 1), las = 2, font = 2, labels = c('Not metaphor', 'Metaphor'), cex.axis = 2.1, lwd.ticks = 3)#
+box(lwd = 3)#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 0.2, 0.05))#
+mtext('Absolute Valence', side = 1, line = 4.5, font = 2, cex = 2.5)#
+points(sfreq$ValMax, jitter(as.numeric(sfreq$Mapped) - 1, 0.2),#
+	bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA, cex = 1.5)#
+polygon(x = c(xpred$ValMax, rev(xpred$ValMax)),#
+	y = c(xpred$UB, rev(xpred$LB)), border = F, col = rgb(0, 0, 0, 0.4))#
+points(xpred$ValMax, xpred$fit, lwd = 4, type = 'l', col = 'steelblue4')
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 0.2), ylim = c(-0.1, 1.2))#
+abline(h = c(0, 1), lwd = 2, lty = 2)#
+axis(side = 2, at = c(0, 1), las = 2, font = 2, labels = c('Not metaphor', 'Metaphor'), cex.axis = 2.1, lwd.ticks = 3)#
+box(lwd = 3)#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 0.2, 0.05))#
+mtext('Absolute Valence', side = 1, line = 4.5, font = 2, cex = 2.5)#
+points(sfreq$ValMax, jitter(as.numeric(sfreq$Mapped) - 1, 0.2),#
+	bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA, cex = 1.5)#
+polygon(x = c(xpred$ValMax, rev(xpred$ValMax)),#
+	y = c(xpred$UB, rev(xpred$LB)), border = F, col = rgb(0.2, 0.3, 0.7, 0.4))#
+points(xpred$ValMax, xpred$fit, lwd = 4, type = 'l', col = 'steelblue4')
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 0.2), ylim = c(-0.1, 1.2))#
+abline(h = c(0, 1), lwd = 2, lty = 2)#
+axis(side = 2, at = c(0, 1), las = 2, font = 2, labels = c('Not metaphor', 'Metaphor'), cex.axis = 2.1, lwd.ticks = 3)#
+box(lwd = 3)#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 0.2, 0.05))#
+mtext('Absolute Valence', side = 1, line = 4.5, font = 2, cex = 2.5)#
+points(sfreq$ValMax, jitter(as.numeric(sfreq$Mapped) - 1, 0.2),#
+	bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA, cex = 1.5)#
+polygon(x = c(xpred$ValMax, rev(xpred$ValMax)),#
+	y = c(xpred$UB, rev(xpred$LB)), border = F, col = rgb(0.4, 0.1, 0.4, 0.3))#
+points(xpred$ValMax, xpred$fit, lwd = 4, type = 'l', col = 'steelblue4')
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 0.2), ylim = c(-0.1, 1.2))#
+abline(h = c(0, 1), lwd = 2, lty = 2)#
+axis(side = 2, at = c(0, 1), las = 2, font = 2, labels = c('Not metaphor', 'Metaphor'), cex.axis = 2.1, lwd.ticks = 3)#
+box(lwd = 3)#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 0.2, 0.05))#
+mtext('Absolute Valence', side = 1, line = 4.5, font = 2, cex = 2.5)#
+points(sfreq$ValMax, jitter(as.numeric(sfreq$Mapped) - 1, 0.2),#
+	bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA, cex = 1.5)#
+polygon(x = c(xpred$ValMax, rev(xpred$ValMax)),#
+	y = c(xpred$UB, rev(xpred$LB)), border = F, col = rgb(0.4, 0.1, 0.4, 0.3))#
+points(xpred$ValMax, xpred$fit, lwd = 4, type = 'l', col = rgb(0.4, 0.1, 0.4, 1))
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 0.2), ylim = c(-0.1, 1.2))#
+abline(h = c(0, 1), lwd = 2, lty = 2)#
+axis(side = 2, at = c(0, 1), las = 2, font = 2, labels = c('Not metaphor', 'Metaphor'), cex.axis = 2.1, lwd.ticks = 3)#
+box(lwd = 3)
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 0.2), ylim = c(-0.1, 1.2))#
+abline(h = c(0, 1), lwd = 2, lty = 2)#
+axis(side = 2, at = c(0, 1), las = 2, font = 2, labels = c('Not metaphor', 'Metaphor'), cex.axis = 2.1, lwd.ticks = 3)#
+box(lwd = 3)#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 0.2, 0.05))#
+mtext('Absolute Valence', side = 1, line = 4.5, font = 2, cex = 2.5)#
+points(sfreq$ValMax, jitter(as.numeric(sfreq$Mapped) - 1, 0.2),#
+	bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA, cex = 1.5)
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 0.2), ylim = c(-0.1, 1.2))#
+abline(h = c(0, 1), lwd = 2, lty = 2)#
+axis(side = 2, at = c(0, 1), las = 2, font = 2, labels = c('Not metaphor', 'Metaphor'), cex.axis = 2.1, lwd.ticks = 3)#
+box(lwd = 3)#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 0.2, 0.05))#
+mtext('Absolute Valence', side = 1, line = 4.5, font = 2, cex = 2.5)#
+points(sfreq$ValMax, jitter(as.numeric(sfreq$Mapped) - 1, 0.2),#
+	bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA, cex = 1.5)#
+polygon(x = c(xpred$ValMax, rev(xpred$ValMax)),#
+	y = c(xpred$UB, rev(xpred$LB)), border = F, col = rgb(0.4, 0.1, 0.4, 0.3))#
+points(xpred$ValMax, xpred$fit, lwd = 4, type = 'l', col = rgb(0.4, 0.1, 0.4, 1))
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 0.2), ylim = c(-0.1, 1.2))#
+abline(h = c(0, 1), lwd = 2, lty = 2)#
+axis(side = 2, at = c(0, 1), las = 2, font = 2, labels = c('Not metaphor', 'Metaphor'), cex.axis = 2.1, lwd.ticks = 3)#
+box(lwd = 3)#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 0.2, 0.05))#
+mtext('Absolute Valence', side = 1, line = 4.5, font = 2, cex = 2.5)#
+points(sfreq$ValMax, jitter(as.numeric(sfreq$Mapped) - 1, 0.2),#
+	bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA, cex = 1.5)
+warr_con <- read.csv('/Users/teeniematlock/Desktop/sense_phd/analysis/data/adjective_context_valence.csv')
+head(warr_con)
+adj$AbsVCon <- warr.con[match(adj$Word, warr.con$Word), ]$AbsV#
+adj$AbsSent <- warr.con[match(adj$Word, warr.con$Word), ]$AbsSent#
+adj$ValMax <- warr.con[match(adj$Word, warr.con$Word), ]$ValMax
+warr.con <- read.csv('/Users/teeniematlock/Desktop/sense_phd/analysis/data/adjective_context_valence.csv')
+adj$AbsVCon <- warr.con[match(adj$Word, warr.con$Word), ]$AbsV#
+adj$AbsSent <- warr.con[match(adj$Word, warr.con$Word), ]$AbsSent#
+adj$ValMax <- warr.con[match(adj$Word, warr.con$Word), ]$ValMax
+setwd('/Users/teeniematlock/Desktop/research/senses_sensory_modalities/viberg/new_analysis/data/')#
+SUBTL <- read.csv('SUBTLEX_freq.csv')
+adj$AdjFreq <- SUBTL[match(adj$Word, SUBTL$Word), ]$FREQcount#
+adj <- mutate(adj, LogAdjFreq = log10(AdjFreq))
+att <- adj[adj$Attested == 'yes',]#
+att <- mutate(att,#
+	LogAdjFreq_c = LogAdjFreq - mean(LogAdjFreq, na.rm = T),#
+	AbsV_c = AbsV - mean(AbsV, na.rm = T),#
+	AbsSent_c = AbsSent - mean(AbsSent, na.rm = T),#
+	Cosine_c = Cosine - mean(Cosine),#
+	AbsVCon_c = AbsVCon - mean(AbsVCon, na.rm = T),#
+	AbsSent_c = AbsSent - mean(AbsSent, na.rm = T),#
+	ValMax_c = ValMax - mean(ValMax, na.rm = T))
+att$Word <- factor(att$Word)
+summary(xmdl.warr <- lmer(LogFreq ~ Cosine_c * AbsVCon_c + (1|Word) + (1|Noun), att))
+summary(xmdl.warr <- lmer(LogFreq ~ Cosine_c * AbsSent_c + (1|Word) + (1|Noun), att))
+summary(xmdl.valmax <- lmer(LogFreq ~ Cosine_c * ValMax_c + (1|Word) + (1|Noun), att))
+summary(xmdl.warr <- lmer(LogFreq ~ Cosine_c * AbsVCon_c + (1|Word) + (1|Noun), att))
+adj <- mutate(adj,#
+	LogAdjFreq_c = LogAdjFreq - mean(LogAdjFreq, na.rm = T),#
+	AbsV_c = AbsV - mean(AbsV, na.rm = T),#
+	AbsSent_c = AbsSent - mean(AbsSent, na.rm = T),#
+	Cosine_c = Cosine - mean(Cosine))
+adj <- mutate(adj,#
+	LogAdjFreq_c = LogAdjFreq - mean(LogAdjFreq, na.rm = T),#
+	AbsV_c = AbsV - mean(AbsV, na.rm = T),#
+	AbsSent_c = AbsSent - mean(AbsSent, na.rm = T),#
+	Cosine_c = Cosine - mean(Cosine),#
+	AbsVCon_c = AbsVCon - mean(AbsVCon, na.rm = T),#
+	AbsSent_c = AbsSent - mean(AbsSent, na.rm = T),#
+	ValMax_c = ValMax - mean(ValMax, na.rm = T))
+summary(xmdl.warr.log <- glmer(Attested ~ Cosine_c * AbsVCon_c + (1|Word) + (1|Noun), adj, family = 'binomial'))
+summary(xmdl.warr <- lmer(Cosine ~ AbsVCon_c + LogFreq + (1|Word) + (1|Noun), att))
+summary(xmdl.hash <- lmer(Cosine ~ AbsSent_c + LogFreq + (1|Word) + (1|Noun), att))
+plot(att$Cosine, att$AbsVCon)
+summary(xmdl.hash <- lmer(Cosine ~ AbsSent_c + LogFreq_c + (1|Word) + (1|Noun), att))
+summary(xmdl.hash <- lmer(Cosine ~ AbsSent_c + LogAdjFreq_c + (1|Word) + (1|Noun), att))
+summary(xmdl.warr <- lmer(Cosine ~ AbsVCon_c + LogAdjFreq_c + (1|Word) + (1|Noun), att))
+summary(xmdl.warr <- lmer(Cosine ~ AbsVCon_c + (1|Word) + (1|Noun), att))
+summary(xmdl.hash <- lmer(Cosine ~ AbsSent_c + (1|Word) + (1|Noun), att))
+summary(xmdl.warr <- lmer(Cosine ~ AbsVCon_c + (1|Word) + (1|Noun), att))
+summary(xmdl.hash <- lmer(Cosine ~ AbsSent_c + (1|Word) + (1|Noun), att))
+library(MuMIn)
+r.squaredGLMM(xmdl.hash)
+r.squaredGLMM(xmdl.warr)
+r.squaredGLMM(xmdl.hash)
+plot(att$Cosine, att$AbsSent)
+summary(xmdl.hash <- lmer(Cosine ~ AbsSent + (1|Word) + (1|Noun), att))
+range(att$AbsSent)
+plot(att$AbsSent, att$Cosine)
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1.4), ylim = c(-0.1, 1.2))#
+points(att$AbsSent, att$Cosine, col = rgb(0, 0, 0, 0.4))
+plot(att$AbsSent, att$Cosine)
+plot(att$Cosine, att$AbsSent)
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1), ylim = c(0, 1.4))#
+points(att$Cosine, att$AbsSent, col = rgb(0, 0, 0, 0.4))
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1), ylim = c(0, 1.4))#
+points(att$Cosine, att$AbsSent, fill = rgb(0, 0, 0, 0.4), pch = 21, col = NA)
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1), ylim = c(0, 1.4))#
+points(att$Cosine, att$AbsSent, bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA)
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1), ylim = c(0, 1.4))#
+points(att$Cosine, att$AbsSent, bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA)#
+box(lwd = 3)
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1), ylim = c(0, 1.4))#
+points(att$Cosine, att$AbsSent, bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA)#
+box(lwd = 3)#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1, 0.25))#
+mtext('Cosine', side = 1, line = 4.5, font = 2, cex = 2.5)
+source('/Users/teeniematlock/Desktop/my_courses/merced_regression/predict.glmm.R')
+xdf <- data.frame(AbsSent = seq(0, 1.4, 0.01))
+xpred <- predict.glmm(xmdl.hash, newdata = xdf, type = 'gaussian')
+xpred
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1), ylim = c(0, 1.4))#
+points(att$Cosine, att$AbsSent, bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA)#
+box(lwd = 3)#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1, 0.25))#
+mtext('Cosine', side = 1, line = 4.5, font = 2, cex = 2.5)
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1), ylim = c(0, 1.4))#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1, 0.25))#
+mtext('Cosine', side = 1, line = 4.5, font = 2, cex = 2.5)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1.4, 0.2), las = 2)#
+mtext('Absolute Valence', side = 2, line = 4.5, font = 2, cex = 2.5)#
+points(att$Cosine, att$AbsSent, bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA)#
+box(lwd = 3)
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1), ylim = c(0, 1.4))#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1, 0.25))#
+mtext('Cosine', side = 1, line = 4.5, font = 2, cex = 2.5)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1.2, 0.3), las = 2)#
+mtext('Absolute Valence', side = 2, line = 4.5, font = 2, cex = 2.5)#
+points(att$Cosine, att$AbsSent, bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA)#
+box(lwd = 3)
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1), ylim = c(0, 1.2))#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1, 0.25))#
+mtext('Cosine', side = 1, line = 4.5, font = 2, cex = 2.5)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1.2, 0.3), las = 2)#
+mtext('Absolute Valence', side = 2, line = 4.5, font = 2, cex = 2.5)#
+points(att$Cosine, att$AbsSent, bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA)#
+box(lwd = 3)
+head(xpred)
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1), ylim = c(0, 1.2))#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1, 0.25))#
+mtext('Cosine', side = 1, line = 4.5, font = 2, cex = 2.5)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1.2, 0.3), las = 2)#
+mtext('Absolute Valence', side = 2, line = 4.5, font = 2, cex = 2.5)#
+points(att$Cosine, att$AbsSent, bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA)#
+points(xpred$Cosine, xpred$AbsSent, col = rgb(0.4, 0.1, 0.4, 0.9))#
+box(lwd = 3)
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1), ylim = c(0, 1.2))#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1, 0.25))#
+mtext('Cosine', side = 1, line = 4.5, font = 2, cex = 2.5)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1.2, 0.3), las = 2)#
+mtext('Absolute Valence', side = 2, line = 4.5, font = 2, cex = 2.5)#
+points(att$Cosine, att$AbsSent, bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA)#
+points(x= xpred$Cosine, y = xpred$AbsSent, col = rgb(0.4, 0.1, 0.4, 0.9), type = 'l', lwd = 4)
+summary(xmdl.hash <- lmer(AbsSent ~ Cosine + (1|Word) + (1|Noun), att))#
+source('/Users/teeniematlock/Desktop/my_courses/merced_regression/predict.glmm.R')#
+xdf <- data.frame(AbsSent = seq(0, 1.4, 0.01), Cosine = seq(0, 1, 0.01))#
+xpred <- predict.glmm(xmdl.hash, newdata = xdf, type = 'gaussian')
+summary(xmdl.hash <- lmer(Cosine ~ AbsSent + (1|Word) + (1|Noun), att))
+source('/Users/teeniematlock/Desktop/my_courses/merced_regression/predict.glmm.R')#
+xdf <- data.frame(AbsSent = seq(0, 1.4, 0.01))
+xpred <- predict.glmm(xmdl.hash, newdata = xdf, type = 'gaussian')
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1), ylim = c(0, 1.2))#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1, 0.25))#
+mtext('Cosine', side = 1, line = 4.5, font = 2, cex = 2.5)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1.2, 0.3), las = 2)#
+mtext('Absolute Valence', side = 2, line = 4.5, font = 2, cex = 2.5)#
+points(att$Cosine, att$AbsSent, bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA)
+xpred$Cosine
+xpred$AbsSent
+xpred$Cosine
+rev(xpred$Cosine)
+xpred$AbsSent
+rev(xpred$AbsSent)
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1), ylim = c(0, 1.2))#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1, 0.25))#
+mtext('Cosine', side = 1, line = 4.5, font = 2, cex = 2.5)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1.2, 0.3), las = 2)#
+mtext('Absolute Valence', side = 2, line = 4.5, font = 2, cex = 2.5)#
+points(att$Cosine, att$AbsSent, bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA)#
+points(x= rev(xpred$Cosine), y = rev(xpred$AbsSent), col = rgb(0.4, 0.1, 0.4, 0.9), type = 'l', lwd = 4)
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1), ylim = c(0, 1.2))#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1, 0.25))#
+mtext('Cosine', side = 1, line = 4.5, font = 2, cex = 2.5)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1.2, 0.3), las = 2)#
+mtext('Absolute Valence', side = 2, line = 4.5, font = 2, cex = 2.5)#
+points(att$Cosine, att$AbsSent, bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA)#
+abline(lm(AbsSent ~ Cosine), col = 'darkred')
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1), ylim = c(0, 1.2))#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1, 0.25))#
+mtext('Cosine', side = 1, line = 4.5, font = 2, cex = 2.5)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1.2, 0.3), las = 2)#
+mtext('Absolute Valence', side = 2, line = 4.5, font = 2, cex = 2.5)#
+points(att$Cosine, att$AbsSent, bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA)#
+abline(lm(AbsSent ~ Cosine, att), col = 'darkred')
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1), ylim = c(0, 1.2))#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1, 0.25))#
+mtext('Cosine', side = 1, line = 4.5, font = 2, cex = 2.5)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1.2, 0.3), las = 2)#
+mtext('Absolute Valence', side = 2, line = 4.5, font = 2, cex = 2.5)#
+points(att$Cosine, att$AbsSent, bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA)#
+abline(lm(AbsSent ~ Cosine, att), col = rgb(0.4, 0.1, 0.4, 0.9), lwd = 4)#
+# points(x= rev(xpred$Cosine), y = rev(xpred$AbsSent), col = rgb(0.4, 0.1, 0.4, 0.9), type = 'l', lwd = 4)#
+box(lwd = 3)
+xpred
+rev(xpred$Cosine)
+summary(xmdl.hash <- lmer(AbsSent ~ Cosine + (1|Word) + (1|Noun), att))
+head(att)
+att$AbsSent
+summary(xmdl.hash <- lmer(AbsSent ~ Cosine + (1|Word), att))
+summary(xmdl.hash <- lmer(AbsSent ~ Cosine + (1|Word), att, REML = F))
+att <- mutate(att, Cosine_c = Cosine - mean(Cosine))
+summary(xmdl.hash <- lmer(AbsSent ~ Cosine + (1|Word), att, REML = F))
+summary(xmdl.hash <- lmer(AbsSent ~ Cosine_c + (1|Word), att, REML = F))
+att <- mutate(att, Cosine_c = Cosine - mean(Cosine, na.rm = T),#
+	Cosine_z = Cosine_c / sd(Cosine_c, na.rm = T))
+summary(xmdl.hash <- lmer(AbsSent ~ Cosine_z + (1|Word), att, REML = F))
+att$Cosine
+att$AbsSent
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1), ylim = c(0, 1.2))#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1, 0.25))#
+mtext('Cosine', side = 1, line = 4.5, font = 2, cex = 2.5)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1.2, 0.3), las = 2)#
+mtext('Absolute Valence', side = 2, line = 4.5, font = 2, cex = 2.5)#
+points(att$Cosine, att$AbsSent, bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA)
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1), ylim = c(0, 1.2))#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1, 0.25))#
+mtext('Cosine', side = 1, line = 4.5, font = 2, cex = 2.5)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1.2, 0.3), las = 2)#
+mtext('Absolute Valence', side = 2, line = 4.5, font = 2, cex = 2.5)#
+points(att$Cosine, att$AbsSent, bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA)#
+abline(lm(AbsSent ~ Cosine, att), col = rgb(0.4, 0.1, 0.4, 0.9), lwd = 5)#
+# points(x= rev(xpred$Cosine), y = rev(xpred$AbsSent), col = rgb(0.4, 0.1, 0.4, 0.9), type = 'l', lwd = 4)#
+box(lwd = 3)
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1), ylim = c(0, 1.2))#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1, 0.25))#
+mtext('Cosine', side = 1, line = 4.5, font = 2, cex = 2.5)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1.2, 0.3), las = 2)#
+mtext('Absolute Valence', side = 2, line = 4.5, font = 2, cex = 2.5)#
+points(att$Cosine, att$AbsSent, bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA)#
+abline(lm(AbsSent ~ Cosine, att), col = rgb(0.4, 0.1, 0.4, 0.9), lwd = 5)#
+# points(x= rev(xpred$Cosine), y = rev(xpred$AbsSent), col = rgb(0.4, 0.1, 0.4, 0.9), type = 'l', lwd = 4)#
+box(lwd = 3)
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1), ylim = c(0, 1.2))#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1, 0.25))#
+mtext('Cosine', side = 1, line = 4.5, font = 2, cex = 2.5)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1.2, 0.3), las = 2)#
+mtext('Absolute Valence', side = 2, line = 4.5, font = 2, cex = 2.5)#
+points(att$Cosine, att$AbsSent, bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA)#
+abline(lm(AbsSent ~ Cosine, att), col = rgb(0.4, 0.1, 0.4, 0.9), lwd = 5)#
+# points(x= rev(xpred$Cosine), y = rev(xpred$AbsSent), col = rgb(0.4, 0.1, 0.4, 0.9), type = 'l', lwd = 4)#
+box(lwd = 3)
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1), ylim = c(0, 1.2))#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1, 0.25))#
+mtext('Cosine', side = 1, line = 4.5, font = 2, cex = 2.5)
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1), ylim = c(0, 1.2))
+box(lwd = 3)
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1), ylim = c(0, 1.2))#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1, 0.25))#
+mtext('Cosine', side = 1, line = 4.5, font = 2, cex = 2.5)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1.2, 0.3), las = 2)#
+mtext('Absolute Valence', side = 2, line = 4.5, font = 2, cex = 2.5)#
+points(att$Cosine, att$AbsSent, bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA)#
+abline(lm(AbsSent ~ Cosine, att), col = rgb(0.4, 0.1, 0.4, 0.9), lwd = 5)#
+# points(x= rev(xpred$Cosine), y = rev(xpred$AbsSent), col = rgb(0.4, 0.1, 0.4, 0.9), type = 'l', lwd = 4)#
+box(lwd = 3)
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1), ylim = c(0, 1.2))#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1, 0.25))#
+mtext('Cosine', side = 1, line = 4.5, font = 2, cex = 2.5)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1.2, 0.3), las = 2)#
+mtext('Absolute Valence', side = 2, line = 4.5, font = 2, cex = 2.5)#
+points(att$Cosine, att$AbsSent, bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA)#
+abline(lm(AbsSent ~ Cosine, att), col = rgb(0.4, 0.1, 0.4, 0.9), lwd = 5)#
+# points(x= rev(xpred$Cosine), y = rev(xpred$AbsSent), col = rgb(0.4, 0.1, 0.4, 0.9), type = 'l', lwd = 4)#
+box(lwd = 3)
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1), ylim = c(0, 1.2))#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1, 0.25))#
+mtext('Cosine', side = 1, line = 4.5, font = 2, cex = 2.5)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1.2, 0.3), las = 2)#
+mtext('Absolute Valence', side = 2, line = 4.5, font = 2, cex = 2.5)#
+points(att$Cosine, att$AbsSent, bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA)#
+abline(lm(AbsSent ~ Cosine, att), col = rgb(0.4, 0.1, 0.4, 0.9), lwd = 5)#
+# points(x= rev(xpred$Cosine), y = rev(xpred$AbsSent), col = rgb(0.4, 0.1, 0.4, 0.9), type = 'l', lwd = 4)#
+box(lwd = 3)
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1), ylim = c(0, 1.2))#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1, 0.25))#
+mtext('Cosine', side = 1, line = 4.5, font = 2, cex = 2.5)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1.2, 0.3), las = 2)#
+mtext('Absolute Valence', side = 2, line = 4.5, font = 2, cex = 2.5)#
+points(att$Cosine, att$AbsSent, bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA)#
+abline(lm(AbsSent ~ Cosine, att), col = rgb(0.4, 0.1, 0.4, 0.9), lwd = 5)#
+# points(x= rev(xpred$Cosine), y = rev(xpred$AbsSent), col = rgb(0.4, 0.1, 0.4, 0.9), type = 'l', lwd = 4)#
+box(lwd = 3)
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1), ylim = c(0, 1.2))#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1, 0.25))#
+mtext('Cosine', side = 1, line = 4.5, font = 2, cex = 2.5)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1.2, 0.3), las = 2)#
+mtext('Absolute Valence', side = 2, line = 4.5, font = 2, cex = 2.5)#
+points(att$Cosine, att$AbsSent, bg = rgb(0, 0, 0, 0.1), pch = 21, col = NA)#
+abline(lm(AbsSent ~ Cosine, att), col = rgb(0.4, 0.1, 0.4, 0.9), lwd = 5)#
+# points(x= rev(xpred$Cosine), y = rev(xpred$AbsSent), col = rgb(0.4, 0.1, 0.4, 0.9), type = 'l', lwd = 4)#
+box(lwd = 3)
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1), ylim = c(0, 1.2))#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1, 0.25))#
+mtext('Cosine', side = 1, line = 4.5, font = 2, cex = 2.5)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1.2, 0.3), las = 2)#
+mtext('Absolute Valence', side = 2, line = 4.5, font = 2, cex = 2.5)#
+points(att$Cosine, att$AbsSent, bg = rgb(0, 0, 0, 0.25), pch = 21, col = NA)#
+abline(lm(AbsSent ~ Cosine, att), col = rgb(0.4, 0.1, 0.4, 0.9), lwd = 5)#
+# points(x= rev(xpred$Cosine), y = rev(xpred$AbsSent), col = rgb(0.4, 0.1, 0.4, 0.9), type = 'l', lwd = 4)#
+box(lwd = 3)
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1), ylim = c(0, 1.2))#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1, 0.25))#
+mtext('Cosine', side = 1, line = 4.5, font = 2, cex = 2.5)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1.2, 0.3), las = 2)#
+mtext('Absolute Valence', side = 2, line = 4.5, font = 2, cex = 2.5)#
+points(att$Cosine, att$AbsSent, bg = rgb(0, 0, 0, 0.25), pch = 21, col = NA)#
+abline(lm(AbsSent ~ Cosine, att), col = rgb(0.4, 0.1, 0.4, 0.9), lwd = 6)#
+# points(x= rev(xpred$Cosine), y = rev(xpred$AbsSent), col = rgb(0.4, 0.1, 0.4, 0.9), type = 'l', lwd = 4)#
+box(lwd = 3)
+summary(xmdl.hash <- lmer(Cosine ~ AbsSent + (1|Word) + (1|Noun), att, REML = F))
+source('/Users/teeniematlock/Desktop/my_courses/merced_regression/predict.glmm.R')
+xdf <- data.frame(AbsSent = seq(0, 1.4, 0.01))
+xdf
+xpred <- predict.glmm(xmdl.hash, newdata = xdf, type = 'gaussian')
+xpred
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1.4), ylim = c(0, 1))#
+points(xpred$AbsSent, xpred$Cosine, lwd = 4)
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1.4), ylim = c(0, 1))#
+points(xpred$AbsSent, xpred$Cosine, lwd = 4, type = 'l', col = rgb(0.4, 0.1, 0.4, 0.9))
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1.4), ylim = c(0, 1.2))#
+points(xpred$AbsSent, xpred$Cosine, lwd = 4, type = 'l', col = rgb(0.4, 0.1, 0.4, 0.9))
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1.4), ylim = c(0, 1.2))#
+points(xpred$AbsSent, xpred$Cosine, lwd = 6, type = 'l', col = rgb(0.4, 0.1, 0.4, 0.9))#
+polygon(x = c(xpred$AbsSent, rev(xpred$AbsSent)),#
+	y = c(xpred$Cosine, rev(xpred$Cosine)), col = rgb(0.4, 0.1, 0.4, 0.3))
+summary(xmdl.hash <- lmer(Cosine ~ AbsSent + (1|Word) + (1+AbsSent|Noun), att, REML = F))
+r.squaredGLMM(xmdl.hash)
+xdf <- data.frame(AbsSent = seq(0, 1.4, 0.01))#
+xpred <- predict.glmm(xmdl.hash, newdata = xdf, type = 'gaussian')
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1.4), ylim = c(0.5, 1.2))#
+points(xpred$AbsSent, xpred$Cosine, lwd = 6, type = 'l', col = rgb(0.4, 0.1, 0.4, 0.9))#
+polygon(x = c(xpred$AbsSent, rev(xpred$AbsSent)),#
+	y = c(xpred$Cosine, rev(xpred$Cosine)), col = rgb(0.4, 0.1, 0.4, 0.3))
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1.4), ylim = c(0.5, 1.2))#
+# points(xpred$AbsSent, xpred$Cosine, lwd = 6, type = 'l', col = rgb(0.4, 0.1, 0.4, 0.9))#
+polygon(x = c(xpred$AbsSent, rev(xpred$AbsSent)),#
+	y = c(xpred$Cosine, rev(xpred$Cosine)), col = rgb(0.4, 0.1, 0.4, 0.3))
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1.4), ylim = c(0.5, 1.2))#
+# points(xpred$AbsSent, xpred$Cosine, lwd = 6, type = 'l', col = rgb(0.4, 0.1, 0.4, 0.9))#
+polygon(x = c(xpred$AbsSent, rev(xpred$AbsSent)),#
+	y = c(xpred$Cosine, rev(xpred$Cosine)), col = rgb(0.4, 0.1, 0.4, 0.3), border = NA)
+xpred$AbsSent
+c(xpred$AbsSent, rev(xpred$AbsSent))
+xpred$Cosine
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1.4), ylim = c(0.5, 1.2))#
+# points(xpred$AbsSent, xpred$Cosine, lwd = 6, type = 'l', col = rgb(0.4, 0.1, 0.4, 0.9))#
+polygon(x = c(xpred$AbsSent, rev(xpred$AbsSent)),#
+	y = c(xpred$UB, rev(xpred$LB)), col = rgb(0.4, 0.1, 0.4, 0.3), border = NA)
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1.4), ylim = c(0, 1.2))#
+# points(xpred$AbsSent, xpred$Cosine, lwd = 6, type = 'l', col = rgb(0.4, 0.1, 0.4, 0.9))#
+polygon(x = c(xpred$AbsSent, rev(xpred$AbsSent)),#
+	y = c(xpred$UB, rev(xpred$LB)), col = rgb(0.4, 0.1, 0.4, 0.3), border = NA)
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1.4), ylim = c(0, 1.2))#
+# points(xpred$AbsSent, xpred$Cosine, lwd = 6, type = 'l', col = rgb(0.4, 0.1, 0.4, 0.9))#
+polygon(x = c(xpred$AbsSent, rev(xpred$AbsSent)),#
+	y = c(xpred$UB, rev(xpred$LB)), col = rgb(0.4, 0.1, 0.4, 0.3), border = NA)
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1.4), ylim = c(0, 1.2))#
+polygon(x = c(xpred$AbsSent, rev(xpred$AbsSent)),#
+	y = c(xpred$UB, rev(xpred$LB)), col = rgb(0.4, 0.1, 0.4, 0.3), border = NA)#
+points(xpred$AbsSent, xpred$Cosine, lwd = 6, type = 'l', col = rgb(0.4, 0.1, 0.4, 0.9))
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1.4), ylim = c(0.5, 1.2))#
+polygon(x = c(xpred$AbsSent, rev(xpred$AbsSent)),#
+	y = c(xpred$UB, rev(xpred$LB)), col = rgb(0.4, 0.1, 0.4, 0.3), border = NA)#
+points(xpred$AbsSent, xpred$Cosine, lwd = 6, type = 'l', col = rgb(0.4, 0.1, 0.4, 0.9))
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1.4), ylim = c(0.4, 1.2))#
+polygon(x = c(xpred$AbsSent, rev(xpred$AbsSent)),#
+	y = c(xpred$UB, rev(xpred$LB)), col = rgb(0.4, 0.1, 0.4, 0.3), border = NA)#
+points(xpred$AbsSent, xpred$Cosine, lwd = 6, type = 'l', col = rgb(0.4, 0.1, 0.4, 0.9))
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1.4), ylim = c(0.4, 1.2))#
+polygon(x = c(xpred$AbsSent, rev(xpred$AbsSent)),#
+	y = c(xpred$UB, rev(xpred$LB)), col = rgb(0.4, 0.1, 0.4, 0.3), border = NA)#
+points(xpred$AbsSent, xpred$Cosine, lwd = 5, type = 'l', col = rgb(0.4, 0.1, 0.4, 0.9))
+nrow(xpred)
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1.4), ylim = c(0.4, 1.2))#
+polygon(x = c(xpred$AbsSent, rev(xpred$AbsSent)),#
+	y = c(xpred$UB, rev(xpred$LB)), col = rgb(0.4, 0.1, 0.4, 0.3), border = NA)#
+points(xpred[-c(1:10, 131:141), ]$AbsSent, xpred[-c(1:10, 131:141), ]$Cosine, lwd = 5, type = 'l', col = rgb(0.4, 0.1, 0.4, 0.9))
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1.4), ylim = c(0.4, 1.2))#
+polygon(x = c(xpred$AbsSent, rev(xpred$AbsSent)),#
+	y = c(xpred$UB, rev(xpred$LB)), col = rgb(0.4, 0.1, 0.4, 0.3), border = NA)#
+points(xpred[-c(1:2, 139:141), ]$AbsSent, xpred[-c(1:2, 139:141), ]$Cosine,#
+	lwd = 5, type = 'l', col = rgb(0.4, 0.1, 0.4, 0.9))
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1.4), ylim = c(0.4, 1.2))#
+polygon(x = c(xpred$AbsSent, rev(xpred$AbsSent)),#
+	y = c(xpred$UB, rev(xpred$LB)), col = rgb(0.4, 0.1, 0.4, 0.3), border = NA)#
+points(xpred[-c(1, 141), ]$AbsSent, xpred[-c(1, 141), ]$Cosine,#
+	lwd = 5, type = 'l', col = rgb(0.4, 0.1, 0.4, 0.9))
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1.4), ylim = c(0.4, 1.2))#
+box(lwd = 3)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1, 0.25))#
+mtext('Cosine', side = 2, line = 4.5, font = 2, cex = 2.5)#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1.2, 0.3), las = 2)#
+mtext('Absolute Valence', side = 1, line = 4.5, font = 2, cex = 2.5)#
+polygon(x = c(xpred$AbsSent, rev(xpred$AbsSent)),#
+	y = c(xpred$UB, rev(xpred$LB)), col = rgb(0.4, 0.1, 0.4, 0.3), border = NA)#
+points(xpred[-c(1, 141), ]$AbsSent, xpred[-c(1, 141), ]$Cosine,#
+	lwd = 5, type = 'l', col = rgb(0.4, 0.1, 0.4, 0.9))#
+box(lwd = 3)
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1.4), ylim = c(0.4, 1.2))#
+box(lwd = 3)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0.4, 1, 0.2))#
+mtext('Cosine', side = 2, line = 4.5, font = 2, cex = 2.5)#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1.2, 0.3), las = 2)#
+mtext('Absolute Valence', side = 1, line = 4.5, font = 2, cex = 2.5)#
+polygon(x = c(xpred$AbsSent, rev(xpred$AbsSent)),#
+	y = c(xpred$UB, rev(xpred$LB)), col = rgb(0.4, 0.1, 0.4, 0.3), border = NA)#
+points(xpred[-c(1, 141), ]$AbsSent, xpred[-c(1, 141), ]$Cosine,#
+	lwd = 5, type = 'l', col = rgb(0.4, 0.1, 0.4, 0.9))#
+box(lwd = 3)
+xdf <- data.frame(AbsSent = seq(0, 1.4, 0.01))#
+xpred <- predict.glmm(xmdl.hash, newdata = xdf, type = 'gaussian')#
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1.4), ylim = c(0.4, 1.2))#
+box(lwd = 3)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0.4, 1, 0.2))#
+mtext('Cosine', side = 2, line = 4.5, font = 2, cex = 2.5)#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1.2, 0.3), las = 2)#
+mtext('Absolute Valence', side = 1, line = 4.5, font = 2, cex = 2.5)#
+polygon(x = c(xpred$AbsSent, rev(xpred$AbsSent)),#
+	y = c(xpred$UB, rev(xpred$LB)), col = rgb(0.4, 0.1, 0.4, 0.3), border = NA)#
+points(xpred[-c(1, 141), ]$AbsSent, xpred[-c(1, 141), ]$Cosine,#
+	lwd = 5, type = 'l', col = rgb(0.4, 0.1, 0.4, 0.9))#
+box(lwd = 3)
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1.4), ylim = c(0.4, 1.1))#
+box(lwd = 3)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0.4, 1, 0.2))#
+mtext('Cosine', side = 2, line = 4.5, font = 2, cex = 2.5)#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1.2, 0.3), las = 2)#
+mtext('Absolute Valence', side = 1, line = 4.5, font = 2, cex = 2.5)#
+polygon(x = c(xpred$AbsSent, rev(xpred$AbsSent)),#
+	y = c(xpred$UB, rev(xpred$LB)), col = rgb(0.4, 0.1, 0.4, 0.3), border = NA)#
+points(xpred[-c(1, 141), ]$AbsSent, xpred[-c(1, 141), ]$Cosine,#
+	lwd = 5, type = 'l', col = rgb(0.4, 0.1, 0.4, 0.9))#
+box(lwd = 3)
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1.4), ylim = c(0.4, 1.1))#
+box(lwd = 3)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0.4, 1, 0.2))#
+mtext('Cosine', side = 2, line = 4.5, font = 2, cex = 2.5)#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1.2, 0.3))#
+mtext('Absolute Valence', side = 1, line = 4.5, font = 2, cex = 2.5)#
+polygon(x = c(xpred$AbsSent, rev(xpred$AbsSent)),#
+	y = c(xpred$UB, rev(xpred$LB)), col = rgb(0.4, 0.1, 0.4, 0.3), border = NA)#
+points(xpred[-c(1, 141), ]$AbsSent, xpred[-c(1, 141), ]$Cosine,#
+	lwd = 5, type = 'l', col = rgb(0.4, 0.1, 0.4, 0.9))#
+box(lwd = 3)
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1.4), ylim = c(0.4, 1.1))#
+box(lwd = 3)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0.4, 1, 0.2))#
+mtext('Cosine', side = 2, line = 3.5, font = 2, cex = 2.5)#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1.2, 0.3))#
+mtext('Absolute Valence', side = 1, line = 4.5, font = 2, cex = 2.5)#
+polygon(x = c(xpred$AbsSent, rev(xpred$AbsSent)),#
+	y = c(xpred$UB, rev(xpred$LB)), col = rgb(0.4, 0.1, 0.4, 0.3), border = NA)#
+points(xpred[-c(1, 141), ]$AbsSent, xpred[-c(1, 141), ]$Cosine,#
+	lwd = 5, type = 'l', col = rgb(0.4, 0.1, 0.4, 0.9))#
+box(lwd = 3)
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1.6), ylim = c(0.4, 1.1))#
+box(lwd = 3)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0.4, 1, 0.2))#
+mtext('Cosine', side = 2, line = 3.5, font = 2, cex = 2.5)#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1.5, 0.3))#
+mtext('Absolute Valence', side = 1, line = 4.5, font = 2, cex = 2.5)#
+polygon(x = c(xpred$AbsSent, rev(xpred$AbsSent)),#
+	y = c(xpred$UB, rev(xpred$LB)), col = rgb(0.4, 0.1, 0.4, 0.3), border = NA)#
+points(xpred[-c(1, 141), ]$AbsSent, xpred[-c(1, 141), ]$Cosine,#
+	lwd = 5, type = 'l', col = rgb(0.4, 0.1, 0.4, 0.9))#
+box(lwd = 3)
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1.5), ylim = c(0.4, 1.1))#
+box(lwd = 3)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0.4, 1, 0.2))#
+mtext('Cosine', side = 2, line = 3.5, font = 2, cex = 2.5)#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1.5, 0.3))#
+mtext('Absolute Valence', side = 1, line = 4.5, font = 2, cex = 2.5)#
+polygon(x = c(xpred$AbsSent, rev(xpred$AbsSent)),#
+	y = c(xpred$UB, rev(xpred$LB)), col = rgb(0.4, 0.1, 0.4, 0.3), border = NA)#
+points(xpred[-c(1, 141), ]$AbsSent, xpred[-c(1, 141), ]$Cosine,#
+	lwd = 5, type = 'l', col = rgb(0.4, 0.1, 0.4, 0.9))#
+box(lwd = 3)
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1.5), ylim = c(0.4, 1.1))#
+box(lwd = 3)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0.4, 1, 0.2))
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1.5), ylim = c(0.4, 1.1))#
+box(lwd = 3)
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1.5, 0.3))#
+mtext('Absolute Valence', side = 1, line = 4.5, font = 2, cex = 2.5)
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1.5), ylim = c(0.4, 1.1))#
+box(lwd = 3)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0.4, 1, 0.2))#
+mtext('Cosine', side = 2, line = 3.5, font = 2, cex = 2.5)#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1.5, 0.3))#
+mtext('Absolute Valence', side = 1, line = 4.5, font = 2, cex = 2.5)
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1.5), ylim = c(0.4, 1.1))#
+box(lwd = 3)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0.4, 1, 0.2))#
+mtext('Cosine', side = 2, line = 3.5, font = 2, cex = 2.5)#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1.5, 0.3))#
+mtext('Absolute Valence', side = 1, line = 4.5, font = 2, cex = 2.5)#
+polygon(x = c(xpred$AbsSent, rev(xpred$AbsSent)),#
+	y = c(xpred$UB, rev(xpred$LB)), col = rgb(0.4, 0.1, 0.4, 0.3), border = NA)#
+points(xpred[-c(1, 141), ]$AbsSent, xpred[-c(1, 141), ]$Cosine,#
+	lwd = 5, type = 'l', col = rgb(0.4, 0.1, 0.4, 0.9))#
+box(lwd = 3)
+head(adj)
+adj$NounFreq <- SUBTL[match(adj$Noun, SUBTL$Word), ]$FREQcount
+adj <- mutate(adj, LogAdjFreq = log10(AdjFreq),#
+	LogNounFreq = log10(NounFreq))
+att <- adj[adj$Attested == 'yes',]#
+att <- mutate(att,#
+	LogAdjFreq_c = LogAdjFreq - mean(LogAdjFreq, na.rm = T),#
+	LogNounFreq_c = LogNounFreq - mean(LogNounFreq, na.rm = T),#
+	AbsV_c = AbsV - mean(AbsV, na.rm = T),#
+	AbsSent_c = AbsSent - mean(AbsSent, na.rm = T),#
+	Cosine_c = Cosine - mean(Cosine),#
+	AbsVCon_c = AbsVCon - mean(AbsVCon, na.rm = T),#
+	AbsSent_c = AbsSent - mean(AbsSent, na.rm = T),#
+	ValMax_c = ValMax - mean(ValMax, na.rm = T))
+adj <- mutate(adj,#
+	LogAdjFreq_c = LogAdjFreq - mean(LogAdjFreq, na.rm = T),#
+	LogNounFreq_c = LogNounFreq - mean(LogNounFreq, na.rm = T),#
+	AbsV_c = AbsV - mean(AbsV, na.rm = T),#
+	AbsSent_c = AbsSent - mean(AbsSent, na.rm = T),#
+	Cosine_c = Cosine - mean(Cosine),#
+	AbsVCon_c = AbsVCon - mean(AbsVCon, na.rm = T),#
+	AbsSent_c = AbsSent - mean(AbsSent, na.rm = T),#
+	ValMax_c = ValMax - mean(ValMax, na.rm = T))
+head(adj)
+head(att)
+att <- mutate(att, FreqDiff = LogAdjFreq - LogNounFreq)
+summary(xmdl.freqdiff <- lmer(Cosine ~ FreqDiff + (1|Word) + (1|Noun), att, REML = F))
+summary(xmdl.freqdiff <- lmer(Cosine ~ FreqDiff + AbsSent_c + (1|Word) + (1|Noun), att, REML = F))
+summary(xmdl.freqdiff <- lmer(Cosine ~ FreqDiff_c + AbsSent_c + (1|Word) + (1|Noun), att, REML = F))
+att <- mutate(att, FreqDiff = LogAdjFreq - LogNounFreq,#
+	FreqDiff_c = FreqDiff - mean(FreqDiff, na.rm = T))
+summary(xmdl.freqdiff <- lmer(Cosine ~ FreqDiff_c * AbsSent_c + (1|Word) + (1|Noun), att, REML = F))
+icon <- read.csv('iconicity_ratings.csv')
+icon <- read.csv('/Users/teeniematlock/Desktop/sense_phd/analysis/data/iconicity_ratings.csv')
+head(att)
+head(icon)
+adj$Iconicity <- icon[match(att$Word, icon$Word), ]$Iconicity
+adj$Iconicity <- icon[match(adj$Word, icon$Word), ]$Iconicity
+head(adj)
+aggregate(Iconicity ~ Attested, adj, mean)
+att$Iconicity <- icon[match(att$Word, icon$Word), ]$Iconicity
+summary(xmdl.icon <- lmer(Cosine ~ Iconicity + (1|Word) + (1|Noun), att, REML = F))
+summary(xmdl.icon <- lmer(Cosine ~ Iconicity + (1|Word) + (1 + Iconicity|Noun), att, REML = F))
+r.squaredGLMM(xmdl.icon)
+att$Iconicity
+range(att$Iconicity)
+summary(xmdl.icon <- lmer(Cosine ~ Iconicity + (1|Word) + (1 + Iconicity|Noun), att, REML = F))#
+r.squaredGLMM(xmdl.icon)#
+xdf <- data.frame(Iconicity = seq(-3, 6, 0.01))
+xpred <- predict.glmm(xmdl.icon, newdata = xdf, type = 'gaussian')
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(-2, 4), ylim = c(0, 1.2))#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1, 0.25))#
+mtext('Cosine', side = 1, line = 4.5, font = 2, cex = 2.5)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(-2, 4, 2), las = 2)#
+mtext('Iconicity', side = 2, line = 4.5, font = 2, cex = 2.5)#
+points(att$Cosine, att$Iconicity, bg = rgb(0, 0, 0, 0.25), pch = 21, col = NA)
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(-2, 4), ylim = c(0, 1.2))#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1, 0.25))#
+mtext('Cosine', side = 1, line = 4.5, font = 2, cex = 2.5)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(-2, 4, 2), las = 2)#
+mtext('Iconicity', side = 2, line = 4.5, font = 2, cex = 2.5)#
+# points(att$Cosine, att$Iconicity, bg = rgb(0, 0, 0, 0.25), pch = 21, col = NA)#
+# abline(lm(AbsSent ~ Cosine, att), col = rgb(0.4, 0.1, 0.4, 0.9), lwd = 6)#
+points(x= rev(xpred$Cosine), y = rev(xpred$AbsSent), col = rgb(0.4, 0.1, 0.4, 0.9), type = 'l', lwd = 4)#
+box(lwd = 3)
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1.5), ylim = c(0.4, 1.1))#
+box(lwd = 3)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0.4, 1, 0.2))#
+mtext('Cosine', side = 2, line = 3.5, font = 2, cex = 2.5)#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1.5, 0.3))#
+mtext('Absolute Valence', side = 1, line = 4.5, font = 2, cex = 2.5)#
+polygon(x = c(xpred$AbsSent, rev(xpred$AbsSent)),#
+	y = c(xpred$UB, rev(xpred$LB)), col = rgb(0.4, 0.1, 0.4, 0.3), border = NA)#
+points(xpred[-c(1, 141), ]$AbsSent, xpred[-c(1, 141), ]$Cosine,#
+	lwd = 5, type = 'l', col = rgb(0.4, 0.1, 0.4, 0.9))#
+box(lwd = 3)
+xdf <- data.frame(AbsSent = seq(0, 1.4, 0.01))#
+xpred <- predict.glmm(xmdl.hash, newdata = xdf, type = 'gaussian')#
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 1.5), ylim = c(0.4, 1.1))#
+box(lwd = 3)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0.4, 1, 0.2))#
+mtext('Cosine', side = 2, line = 3.5, font = 2, cex = 2.5)#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0, 1.5, 0.3))#
+mtext('Absolute Valence', side = 1, line = 4.5, font = 2, cex = 2.5)#
+polygon(x = c(xpred$AbsSent, rev(xpred$AbsSent)),#
+	y = c(xpred$UB, rev(xpred$LB)), col = rgb(0.4, 0.1, 0.4, 0.3), border = NA)#
+points(xpred[-c(1, 141), ]$AbsSent, xpred[-c(1, 141), ]$Cosine,#
+	lwd = 5, type = 'l', col = rgb(0.4, 0.1, 0.4, 0.9))#
+box(lwd = 3)
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(-2, 4), ylim = c(0.4, 1.1))#
+box(lwd = 3)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0.4, 1, 0.2))#
+mtext('Cosine', side = 2, line = 3.5, font = 2, cex = 2.5)#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(-2, 4, 2))#
+mtext('Iconicity', side = 1, line = 4.5, font = 2, cex = 2.5)#
+polygon(x = c(xpred$Iconicity, rev(xpred$Iconicity)),#
+	y = c(xpred$UB, rev(xpred$LB)), col = rgb(0.4, 0.1, 0.4, 0.3), border = NA)#
+points(xpred[-c(1, 141), ]$Iconicity, xpred[-c(1, 141), ]$Cosine,#
+	lwd = 5, type = 'l', col = rgb(0.4, 0.1, 0.4, 0.9))#
+box(lwd = 3)
+xdf <- data.frame(AbsSent = seq(0, 1.4, 0.01))#
+xpred <- predict.glmm(xmdl.hash, newdata = xdf, type = 'gaussian')
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(-2, 4), ylim = c(0.4, 1.1))#
+box(lwd = 3)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0.4, 1, 0.2))#
+mtext('Cosine', side = 2, line = 3.5, font = 2, cex = 2.5)#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(-2, 4, 2))#
+mtext('Iconicity', side = 1, line = 4.5, font = 2, cex = 2.5)#
+polygon(x = c(xpred$Iconicity, rev(xpred$Iconicity)),#
+	y = c(xpred$UB, rev(xpred$LB)), col = rgb(0.4, 0.1, 0.4, 0.3), border = NA)
+head(xpred)
+xdf <- data.frame(Iconicity = seq(-3, 6, 0.01))#
+xpred <- predict.glmm(xmdl.icon, newdata = xdf, type = 'gaussian')#
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(-2, 4), ylim = c(0.4, 1.1))#
+box(lwd = 3)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0.4, 1, 0.2))#
+mtext('Cosine', side = 2, line = 3.5, font = 2, cex = 2.5)#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(-2, 4, 2))#
+mtext('Iconicity', side = 1, line = 4.5, font = 2, cex = 2.5)#
+polygon(x = c(xpred$Iconicity, rev(xpred$Iconicity)),#
+	y = c(xpred$UB, rev(xpred$LB)), col = rgb(0.4, 0.1, 0.4, 0.3), border = NA)#
+points(xpred[-c(1, 141), ]$Iconicity, xpred[-c(1, 141), ]$Cosine,#
+	lwd = 5, type = 'l', col = rgb(0.4, 0.1, 0.4, 0.9))#
+box(lwd = 3)
+xdf <- data.frame(Iconicity = seq(-3, 6, 0.01))#
+xpred <- predict.glmm(xmdl.icon, newdata = xdf, type = 'gaussian')#
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.5, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(-2, 4), ylim = c(0.4, 1.1))#
+box(lwd = 3)#
+axis(side = 2, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(0.4, 1, 0.2))#
+mtext('Cosine', side = 2, line = 3.5, font = 2, cex = 2.5)#
+axis(side = 1, cex.axis = 1.5, lwd.ticks = 3, font = 2, at = seq(-2, 4, 2))#
+mtext('Iconicity', side = 1, line = 4.5, font = 2, cex = 2.5)#
+polygon(x = c(xpred$Iconicity, rev(xpred$Iconicity)),#
+	y = c(xpred$UB, rev(xpred$LB)), col = rgb(0.4, 0.1, 0.4, 0.3), border = NA)#
+points(xpred[-c(1, 141), ]$Iconicity, xpred[-c(1, 141), ]$Cosine,#
+	lwd = 5, type = 'l', col = rgb(0.4, 0.1, 0.4, 0.9))#
+box(lwd = 3)
+sfreq <- mutate(sfreq, LogFreq = log10(BaseFreq))#
+summary(xmdl.freq <- glm(Mapped ~ LogFreq, sfreq, family = 'binomial'))#
+xpred.freq <- data.frame(LogFreq = seq(0, 6, 0.01))#
+xpred.freq <- cbind(xpred.freq,#
+	as.data.frame(predict(xmdl.freq, newdata = xpred.freq, type = 'link', se.fit = T)[1:2]))#
+xpred.freq$UB <- plogis(xpred.freq$fit + 1.96 * xpred.freq$se.fit)#
+xpred.freq$LB <- plogis(xpred.freq$fit - 1.96 * xpred.freq$se.fit)#
+xpred.freq$fit <- plogis(xpred.freq$fit)#
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.6, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 5), ylim = c(-0.1, 1.2))#
+abline(h = c(0, 1), lwd = 2, lty = 2)#
+axis(side = 2, at = c(0, 1), las = 2, font = 2, labels = c('Not metaphor', 'Metaphor'), cex.axis = 1.75, lwd.ticks = 3)#
+box(lwd = 3)#
+axis(side = 1, cex.axis = 1.35, lwd.ticks = 3, font = 2, at = seq(0, 5, 1))#
+mtext('Frequency', side = 1, line = 4.1, font = 2, cex = 2.3)#
+points(sfreq$LogFreq, jitter(as.numeric(sfreq$Mapped) - 1, 0.2), col = rgb(0.35, 0.6, 0.45, 0.85), pch = 19)#
+polygon(x = c(xpred.freq$LogFreq, rev(xpred.freq$LogFreq)),#
+	y = c(xpred.freq$UB, rev(xpred.freq$LB)), border = F, col = rgb(0.1, 0.4, 0.8, 0.4))#
+points(xpred.freq$LogFreq, xpred.freq$fit, lwd = 4, type = 'l', col = 'steelblue4')
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.6, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 5), ylim = c(-0.1, 1.2))#
+abline(h = c(0, 1), lwd = 2, lty = 2)#
+axis(side = 2, at = c(0, 1), las = 2, font = 2, labels = c('Not metaphor', 'Metaphor'), cex.axis = 1.75, lwd.ticks = 3)#
+box(lwd = 3)#
+axis(side = 1, cex.axis = 1.35, lwd.ticks = 3, font = 2, at = seq(0, 5, 1))#
+mtext('Frequency', side = 1, line = 4.1, font = 2, cex = 2.3)#
+points(sfreq$LogFreq, jitter(as.numeric(sfreq$Mapped) - 1, 0.2), col = rgb(0, 0, 0, 0.4), pch = 21, col = NA, cex = 1.5)#
+polygon(x = c(xpred.freq$LogFreq, rev(xpred.freq$LogFreq)),#
+	y = c(xpred.freq$UB, rev(xpred.freq$LB)), border = F, col = rgb(0.4, 0.1, 0.4, 0.3))#
+points(xpred.freq$LogFreq, xpred.freq$fit, lwd = 4, type = 'l', col = rgb(0.4, 0.1, 0.4, 1))
+set.seed(42)#
+quartz('', 9, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 1.6, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 5), ylim = c(-0.1, 1.2))#
+abline(h = c(0, 1), lwd = 2, lty = 2)#
+axis(side = 2, at = c(0, 1), las = 2, font = 2, labels = c('Not metaphor', 'Metaphor'), cex.axis = 1.75, lwd.ticks = 3)#
+box(lwd = 3)#
+axis(side = 1, cex.axis = 1.35, lwd.ticks = 3, font = 2, at = seq(0, 5, 1))#
+mtext('Frequency', side = 1, line = 4.1, font = 2, cex = 2.3)#
+points(sfreq$LogFreq, jitter(as.numeric(sfreq$Mapped) - 1, 0.2), bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA, cex = 1.5)#
+polygon(x = c(xpred.freq$LogFreq, rev(xpred.freq$LogFreq)),#
+	y = c(xpred.freq$UB, rev(xpred.freq$LB)), border = F, col = rgb(0.4, 0.1, 0.4, 0.3))#
+points(xpred.freq$LogFreq, xpred.freq$fit, lwd = 4, type = 'l', col = rgb(0.4, 0.1, 0.4, 1))
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 5), ylim = c(-0.1, 1.2))#
+abline(h = c(0, 1), lwd = 2, lty = 2)#
+axis(side = 2, at = c(0, 1), las = 2, font = 2, labels = c('Not metaphor', 'Metaphor'), cex.axis = 1.75, lwd.ticks = 3)#
+box(lwd = 3)#
+axis(side = 1, cex.axis = 1.35, lwd.ticks = 3, font = 2, at = seq(0, 5, 1))#
+mtext('Frequency', side = 1, line = 4.1, font = 2, cex = 2.3)#
+points(sfreq$LogFreq, jitter(as.numeric(sfreq$Mapped) - 1, 0.2), bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA, cex = 1.5)#
+polygon(x = c(xpred.freq$LogFreq, rev(xpred.freq$LogFreq)),#
+	y = c(xpred.freq$UB, rev(xpred.freq$LB)), border = F, col = rgb(0.4, 0.1, 0.4, 0.3))#
+points(xpred.freq$LogFreq, xpred.freq$fit, lwd = 4, type = 'l', col = rgb(0.4, 0.1, 0.4, 1))
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(0, 5), ylim = c(-0.1, 1.2))#
+abline(h = c(0, 1), lwd = 2, lty = 2)#
+axis(side = 2, at = c(0, 1), las = 2, font = 2, labels = c('Not metaphor', 'Metaphor'), cex.axis = 2.1, lwd.ticks = 3)#
+box(lwd = 3)#
+axis(side = 1, cex.axis = 1.35, lwd.ticks = 3, font = 2, at = seq(0, 5, 1))#
+mtext('Frequency', side = 1, line = 4.1, font = 2, cex = 2.3)#
+points(sfreq$LogFreq, jitter(as.numeric(sfreq$Mapped) - 1, 0.2), bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA, cex = 1.5)#
+polygon(x = c(xpred.freq$LogFreq, rev(xpred.freq$LogFreq)),#
+	y = c(xpred.freq$UB, rev(xpred.freq$LB)), border = F, col = rgb(0.4, 0.1, 0.4, 0.3))#
+points(xpred.freq$LogFreq, xpred.freq$fit, lwd = 4, type = 'l', col = rgb(0.4, 0.1, 0.4, 1))
+head(sfreq)
+sfreq$Iconicity
+range(sfreq$Iconicity)
+summary(xmdl.freq <- glm(Mapped ~ Iconicity, sfreq, family = 'binomial'))#
+xpred.freq <- data.frame(Iconicity = seq(-3, 5, 0.01))
+summary(xmdl.freq <- glm(Mapped ~ Iconicity, sfreq, family = 'binomial'))#
+xpred.freq <- data.frame(Iconicity = seq(-3, 5, 0.01))#
+xpred.freq <- cbind(xpred.freq,#
+	as.data.frame(predict(xmdl.freq, newdata = xpred.freq, type = 'link', se.fit = T)[1:2]))
+xpred.freq$UB <- plogis(xpred.freq$fit + 1.96 * xpred.freq$se.fit)#
+xpred.freq$LB <- plogis(xpred.freq$fit - 1.96 * xpred.freq$se.fit)#
+xpred.freq$fit <- plogis(xpred.freq$fit)
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(-2, 4), ylim = c(-0.1, 1.2))#
+abline(h = c(0, 1), lwd = 2, lty = 2)#
+axis(side = 2, at = c(0, 1), las = 2, font = 2, labels = c('Not metaphor', 'Metaphor'), cex.axis = 2.1, lwd.ticks = 3)#
+box(lwd = 3)#
+axis(side = 1, cex.axis = 1.35, lwd.ticks = 3, font = 2, at = seq(0, 5, 1))#
+mtext('Iconicity', side = 1, line = 4.1, font = 2, cex = 2.3)#
+points(sfreq$Iconicity, jitter(as.numeric(sfreq$Mapped) - 1, 0.2), bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA, cex = 1.5)#
+polygon(x = c(xpred.freq$Iconicity, rev(xpred.freq$Iconicity)),#
+	y = c(xpred.freq$UB, rev(xpred.freq$LB)), border = F, col = rgb(0.4, 0.1, 0.4, 0.3))#
+points(xpred.freq$Iconicity, xpred.freq$fit, lwd = 4, type = 'l', col = rgb(0.4, 0.1, 0.4, 1))
+set.seed(42)#
+quartz('', 9.5, 6.5)#
+par(mfrow = c(1, 1), omi = c(1.2, 2.2, 0.85, 0.25), mai = c(0.5, 0.5, 0, 0))#
+emptyplot(xlim = c(-2, 4), ylim = c(-0.1, 1.2))#
+abline(h = c(0, 1), lwd = 2, lty = 2)#
+axis(side = 2, at = c(0, 1), las = 2, font = 2, labels = c('Not metaphor', 'Metaphor'), cex.axis = 2.1, lwd.ticks = 3)#
+box(lwd = 3)#
+axis(side = 1, cex.axis = 1.35, lwd.ticks = 3, font = 2, at = seq(-2, 4, 2))#
+mtext('Iconicity', side = 1, line = 4.1, font = 2, cex = 2.3)#
+points(sfreq$Iconicity, jitter(as.numeric(sfreq$Mapped) - 1, 0.2), bg = rgb(0, 0, 0, 0.4), pch = 21, col = NA, cex = 1.5)#
+polygon(x = c(xpred.freq$Iconicity, rev(xpred.freq$Iconicity)),#
+	y = c(xpred.freq$UB, rev(xpred.freq$LB)), border = F, col = rgb(0.4, 0.1, 0.4, 0.3))#
+points(xpred.freq$Iconicity, xpred.freq$fit, lwd = 4, type = 'l', col = rgb(0.4, 0.1, 0.4, 1))
+head(l)
+l[l$DominantModality == 'Auditory',]
+l[l$DominantModality == 'Auditory',]$Word
