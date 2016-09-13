@@ -1,7 +1,6 @@
-Statistical analysis of Canadian Vowel Shift Analysis
+Statistical analysis of visual dominance in language
 =============
 
--	**Authors:** Bodo Winter & Marcus Perlman
 -	**Statistical Analysis:** Bodo Winter
 
 ## Libraries required for this analysis:
